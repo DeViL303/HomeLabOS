@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">Rew</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">PSHOME Revival Project © 2025 HomeLabs</company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">script.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string"></on_listener_received_data>
+		<on_destroy type="string"></on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<osd>
+		<types type="string"></types>
+	</osd>
+	<portable>
+		<on_update type="string"></on_update>
+	</portable>
+</objectdef>

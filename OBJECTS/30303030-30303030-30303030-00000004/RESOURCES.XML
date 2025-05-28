@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+	    <soundbank name="SOUND" deferred_loading="false" protected="false" file="HOMELABOS/FILE/SOUND.bnk" memory="main"/>
+		<lua name="MAIN" deferred_loading="false" protected="false" file="HOMELABOS/LUA/MAIN.lua" memory="main"/>
+		<lua name="DATA_MANAGEMENT" deferred_loading="false" protected="false" file="HOMELABOS/LUA/DATA_MANAGEMENT.lua" memory="main"/>
+		<lua name="UI_RENDERING" deferred_loading="false" protected="false" file="HOMELABOS/LUA/UI_RENDERING.lua" memory="main"/>
+		<lua name="INPUT_HANDLING" deferred_loading="false" protected="false" file="HOMELABOS/LUA/INPUT_HANDLING.lua" memory="main"/>
+		<lua name="CATEGORY_CONFIG" deferred_loading="false" protected="false" file="HOMELABOS/LUA/CATEGORY_CONFIG.lua" memory="main"/>
+		<lua name="OSK" deferred_loading="false" protected="false" file="HOMELABOS/LUA/OSK.lua" memory="host"/>
+		<lua name="POPUP" deferred_loading="false" protected="false" file="HOMELABOS/LUA/POPUP.lua" memory="host"/>
+		<lua name="MINIOS" deferred_loading="false" protected="false" file="HOMELABOS/LUA/MINIOS.lua" memory="host"/>
+		<lua name="ITEM_CONTROL" deferred_loading="false" protected="false" file="HOMELABOS/LUA/ITEM_CONTROL.lua" memory="host"/>
+		</local>
+	<external />
+</resources>

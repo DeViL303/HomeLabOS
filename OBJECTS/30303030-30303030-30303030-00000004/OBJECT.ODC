@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.83.0.31.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>30303030-30303030-30303030-00000004</uuid>
+  <name lang="en-GB" default="true">HomeLabOS</name>
+  <description lang="en-GB" default="true">Developed by DeViL303</description>
+  <maker lang="en-GB" default="true">Home Laboratory</maker>
+  <entitlements>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>

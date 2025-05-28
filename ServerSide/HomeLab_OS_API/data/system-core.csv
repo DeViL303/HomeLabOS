@@ -1,0 +1,25 @@
+id|name|desc|category|thumbnail
+00000000-00000000-00000000-00000001|Scene|The virtual scene object for scripted resources|System-Core|P
+00000000-00000000-00000010-00000000|Male Rig|The rig object for male characters|System-Core|L
+00000000-00000000-00000010-00000001|Female Rig|The rig used for female characters|System-Core|L
+00000000-00000000-00000010-00000002|Fallback Rig|The rig object for male characters|System-Core|P
+00000000-00000000-000000A0-00000001|Master All-In-One|A plethora of custom features for a more tailored experience within Playstation Home Online.|System-Core|L
+00000000-00000000-000000A0-00000002|Master All-In-One|A plethora of custom features for a more tailored experience within Playstation Home Online.|System-Core|L
+00000000-00000000-000000A0-00000003|MAIO DEBUG|A plethora of custom features for a more tailored experience within Playstation Home Online.|System-Core|L
+3071A0A4-661C4B7E-85D14B7E-ABBFE951|Inspect And Purchase|Focus App Inspect And Purchase|System-Core|P
+32039B75-881B41F1-A26F052E-52F0DDDF|Admin Camera|This Admin Camera allows you to save screenshots directly to a USB device attached to the PS3. Administrator Permission is required to take screenshots.|System-Core|L
+40500D3F-D42443BA-9FABE485-A0DA59AE|IGA Launcher|Launcher for the In-Game Admin App used by moderators|System-Core|L
+4DF0EDE8-6B2D4F16-921C6E00-77DD2D78|Promo App|Manages multiple functionality within a single Navigator item|System-Core|L
+63969967-334F4FD7-A57D0768-DA16D0FC|Club|This payment entitles you to set up a Club. At the moment there is no ongoing charge for running a Club but, in the future, we will introduce a fee (to be determined), which will be due every 30 days. Before introducing a recurring fee, we will give you not less than 90 days prior notice. If you do not wish to pay the fee at any time, you do not have to, but you will lose your entitlement to run the Club and we may delete your Club entirely. As the person who set up the Club, you will be the Club Leader. As Leader, you can invite up to 31 other users to join your Club, and appoint up to four of them as sub-leaders. You can only lead one club at a time. However, you can join up to five clubs (leading one, and joining four others). You cannot transfer leadership of your Club to anyone else. If you wish to disband your Club at any time, you may do so by following the instructions in the PlayStation Home Manual. Once a Club is set up its name cannot be changed and, if you disband your Club, you will not be able to reuse its name. Please see the PlayStation Home Manual for more information pertaining to Clubs and Club membership.|System-Core|S
+63BD3272-06D64BD4-894DA8A0-589FA54B|Companion Resource|Companion Resource Scripts|System-Core|L
+6E7F57CB-161D4AA9-BACFC175-602E6582|Locomotion Resource|Locomotion Resource Scripts|System-Core|L
+881B94F9-2C1042FF-A7CD7125-3B844F4E|Animation Resource|AnimationPack Resource|System-Core|L
+8D1F1F41-06924EF0-B4C364C7-D33B52EE|FrontendBootstrap||System-Core|L
+90B121DD-33C94336-83D3F23C-78699CE5|Home Platform Group Startup Object|This object controls the start flow for all users.|System-Core|L
+9894B010-C7AD4FF5-8B1A5B78-8DF89506|Grief Report|The Grief Report platform script object.|System-Core|P
+9D06E741-0CFE4C65-9CC5735E-FBFED901|Help System|Main Platform script, providing help to new users.|System-Core|L
+B0824A08-34054866-91573614-3D2DF37C|Admin Object|Object Description|System-Core|L
+B94E22BB-81CB4BB9-89146DF7-6F1556C2|IGA|In-Game Admin App for use by moderators using a retail PS3 Kit|System-Core|L
+EB6ECA9F-389B4140-96F12563-BE7264F8|FrontendResource||System-Core|L
+F14C0D58-A3934173-99C50269-84DCB78C|Home Platform Group Startup Object V2|This object controls the start flow for all users.|System-Core|L
+FBFDE627-78C24182-998B3D04-48CFE66C|Tutorial|The tutorial shell|System-Core|L

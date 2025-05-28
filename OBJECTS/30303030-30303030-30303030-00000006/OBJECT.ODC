@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.86.0.17.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>30303030-30303030-30303030-00000006</uuid>
+  <name lang="en-GB" default="true">Shutdown HLOS</name>
+  <maker lang="en-GB" default="true">Home Laboratory</maker>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T002.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T002.png</large_image>
+  <entitlements>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="7" parental_control_level="3" />
+    <age_rating country="US" minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>

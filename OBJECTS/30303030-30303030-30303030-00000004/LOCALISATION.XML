@@ -1,0 +1,2137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="en-GB">HomeLabOS</LANG>
+    <LANG ID="de-DE">HomeLabOS</LANG>
+    <LANG ID="es-ES">HomeLabOS</LANG>
+    <LANG ID="fr-FR">HomeLabOS</LANG>
+    <LANG ID="it-IT">HomeLabOS</LANG>
+    <LANG ID="ja-JP">HomeLabOS</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="en-GB">HomeLabOS v1.01 Build 2</LANG>
+    <LANG ID="de-DE">HomeLabOS v1.01 Build 2</LANG>
+    <LANG ID="es-ES">HomeLabOS v1.01 Build 2</LANG>
+    <LANG ID="fr-FR">HomeLabOS v1.01 Build 2</LANG>
+    <LANG ID="it-IT">HomeLabOS v1.01 Build 2 </LANG>
+    <LANG ID="ja-JP">HomeLabOS v1.01 Build 2</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBackToMainHLOS</LANG>
+    <LANG ID="en-GB">[SQUARE] Open Main Window</LANG>
+    <LANG ID="de-DE">[SQUARE] Hauptfenster öffnen</LANG>
+    <LANG ID="es-ES">[SQUARE] Abrir ventana principal</LANG>
+    <LANG ID="fr-FR">[SQUARE] Ouvrir la fenêtre principale</LANG>
+    <LANG ID="it-IT">[SQUARE] Apri finestra principale</LANG>
+    <LANG ID="ja-JP">[SQUARE] メインウィンドウを開く</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHLOSTitle</LANG>
+    <LANG ID="en-GB">HomeLabOS v1.01</LANG>
+    <LANG ID="de-DE">HomeLabOS v1.01</LANG>
+    <LANG ID="es-ES">HomeLabOS v1.01</LANG>
+    <LANG ID="fr-FR">HomeLabOS v1.01</LANG>
+    <LANG ID="it-IT">HomeLabOS v1.01</LANG>
+    <LANG ID="ja-JP">HomeLabOS v1.01</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHLOSMiniTitle</LANG>
+    <LANG ID="en-GB">HomeLabOS Mini-Menu</LANG>
+    <LANG ID="de-DE">HomeLabOS Mini-Menü</LANG>
+    <LANG ID="es-ES">Mini-Menú de HomeLabOS</LANG>
+    <LANG ID="fr-FR">Mini-Menu HomeLabOS</LANG>
+    <LANG ID="it-IT">Mini-Menu HomeLabOS</LANG>
+    <LANG ID="ja-JP">HomeLabOSミニメニュー</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kL1QuickChat</LANG>
+    <LANG ID="en-GB">[L1] Chat</LANG>
+    <LANG ID="de-DE">[L1] Chat</LANG>
+    <LANG ID="es-ES">[L1] Chat</LANG>
+    <LANG ID="fr-FR">[L1] Chat</LANG>
+    <LANG ID="it-IT">[L1] Chat</LANG>
+    <LANG ID="ja-JP">[L1] チャット</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFullMode</LANG>
+    <LANG ID="en-GB">[SQUARE] Full</LANG>
+    <LANG ID="de-DE">[SQUARE] Vollbild</LANG>
+    <LANG ID="es-ES">[SQUARE] Completo</LANG>
+    <LANG ID="fr-FR">[SQUARE] Plein écran</LANG>
+    <LANG ID="it-IT">[SQUARE] Schermo intero</LANG>
+    <LANG ID="ja-JP">[SQUARE] フルスクリーン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kR1QuickEmotes</LANG>
+    <LANG ID="en-GB">[R1] Emotes</LANG>
+    <LANG ID="de-DE">[R1] Emotes</LANG>
+    <LANG ID="es-ES">[R1] Emoticonos</LANG>
+    <LANG ID="fr-FR">[R1] Émoticônes</LANG>
+    <LANG ID="it-IT">[R1] Emoticon</LANG>
+    <LANG ID="ja-JP">[R1] エモート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTotalPlayers</LANG>
+    <LANG ID="en-GB">Players Online Today: </LANG>
+    <LANG ID="de-DE">Spieler heute online: </LANG>
+    <LANG ID="es-ES">Jugadores en línea hoy: </LANG>
+    <LANG ID="fr-FR">Joueurs en ligne aujourd'hui : </LANG>
+    <LANG ID="it-IT">Giocatori online oggi: </LANG>
+    <LANG ID="ja-JP">今日のオンラインプレイヤー： </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFriendsOnline</LANG>
+    <LANG ID="en-GB">Friends Online: </LANG>
+    <LANG ID="de-DE">Freunde online: </LANG>
+    <LANG ID="es-ES">Amigos en línea: </LANG>
+    <LANG ID="fr-FR">Amis en ligne : </LANG>
+    <LANG ID="it-IT">Amici online: </LANG>
+    <LANG ID="ja-JP">オンラインの友達： </LANG>
+  </PHRASE>
+    <PHRASE>
+    <LANG ID="REF">kMoreFrom</LANG>
+    <LANG ID="en-GB">More From: </LANG>
+    <LANG ID="de-DE">>More From: </LANG>
+    <LANG ID="es-ES">>More From: </LANG>
+    <LANG ID="fr-FR">>More From: </LANG>
+    <LANG ID="it-IT">>More From: </LANG>
+    <LANG ID="ja-JP">>More From: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kInvitesAvailable</LANG>
+    <LANG ID="en-GB">Active Invites: </LANG>
+    <LANG ID="de-DE">Aktive Einladungen: </LANG>
+    <LANG ID="es-ES">Invitaciones activas: </LANG>
+    <LANG ID="fr-FR">Invitations actives : </LANG>
+    <LANG ID="it-IT">Inviti attivi: </LANG>
+    <LANG ID="ja-JP">アクティブな招待： </LANG>
+  </PHRASE>
+    <PHRASE>
+    <LANG ID="REF">kWhoIsOnline</LANG>
+    <LANG ID="en-GB">Who is Online</LANG>
+    <LANG ID="de-DE">Who is Online</LANG>
+    <LANG ID="es-ES">Who is Online</LANG>
+    <LANG ID="fr-FR">Who is Online</LANG>
+    <LANG ID="it-IT">Who is Online</LANG>
+    <LANG ID="ja-JP">Who is Online</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kControlLegend</LANG>
+    <LANG ID="en-GB">[TRIANGLE] Options      [SQUARE] Minimize      [UP][DOWN][LEFT][RIGHT] Navigate      [CROSS] Apply      [CIRCLE] Back (Hold to Exit)</LANG>
+    <LANG ID="de-DE">[TRIANGLE] Optionen      [SQUARE] Minimieren      [UP][DOWN][LEFT][RIGHT] Navigieren      [CROSS] Anwenden      [CIRCLE] Zurück (halten zum Beenden)</LANG>
+    <LANG ID="es-ES">[TRIANGLE] Opciones      [SQUARE] Minimizar      [UP][DOWN][LEFT][RIGHT] Navegar      [CROSS] Aplicar      [CIRCLE] Atrás (mantener para salir)</LANG>
+    <LANG ID="fr-FR">[TRIANGLE] Options      [SQUARE] Minimiser      [UP][DOWN][LEFT][RIGHT] Naviguer      [CROSS] Appliquer      [CIRCLE] Retour (maintenir pour quitter)</LANG>
+    <LANG ID="it-IT">[TRIANGLE] Opzioni      [SQUARE] Riduci      [UP][DOWN][LEFT][RIGHT] Naviga      [CROSS] Applica      [CIRCLE] Indietro (tieni premuto per uscire)</LANG>
+    <LANG ID="ja-JP">[TRIANGLE] オプション      [SQUARE] 最小化      [UP][DOWN][LEFT][RIGHT] ナビゲート      [CROSS] 適用      [CIRCLE] 戻る（長押しで終了）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRelatedContent</LANG>
+    <LANG ID="en-GB">Related Content</LANG>
+    <LANG ID="de-DE">Verwandte Inhalte</LANG>
+    <LANG ID="es-ES">Contenido Relacionado</LANG>
+    <LANG ID="fr-FR">Contenu Associé</LANG>
+    <LANG ID="it-IT">Contenuti Correlati</LANG>
+    <LANG ID="ja-JP">関連コンテンツ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kNavigateButton</LANG>
+    <LANG ID="en-GB">[UP][DOWN][LEFT][RIGHT] Navigate</LANG>
+    <LANG ID="de-DE">[UP][DOWN][LEFT][RIGHT] Navigieren</LANG>
+    <LANG ID="es-ES">[UP][DOWN][LEFT][RIGHT] Navegar</LANG>
+    <LANG ID="fr-FR">[UP][DOWN][LEFT][RIGHT] Naviguer</LANG>
+    <LANG ID="it-IT">[UP][DOWN][LEFT][RIGHT] Navigare</LANG>
+    <LANG ID="ja-JP">[UP][DOWN][LEFT][RIGHT] ナビゲート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSelect</LANG>
+    <LANG ID="en-GB">[CROSS] Select</LANG>
+    <LANG ID="de-DE">[CROSS] Auswählen</LANG>
+    <LANG ID="es-ES">[CROSS] Seleccionar</LANG>
+    <LANG ID="fr-FR">[CROSS] Sélectionner</LANG>
+    <LANG ID="it-IT">[CROSS] Seleziona</LANG>
+    <LANG ID="ja-JP">[CROSS] 選択</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kOptions</LANG>
+    <LANG ID="en-GB">[SQUARE] Options</LANG>
+    <LANG ID="de-DE">[SQUARE] Optionen</LANG>
+    <LANG ID="es-ES">[SQUARE] Opciones</LANG>
+    <LANG ID="fr-FR">[SQUARE] Options</LANG>
+    <LANG ID="it-IT">[SQUARE] Opzioni</LANG>
+    <LANG ID="ja-JP">[SQUARE] オプション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRefresh</LANG>
+    <LANG ID="en-GB">[SQUARE] Refresh</LANG>
+    <LANG ID="de-DE">[SQUARE] Aktualisieren</LANG>
+    <LANG ID="es-ES">[SQUARE] Actualizar</LANG>
+    <LANG ID="fr-FR">[SQUARE] Actualiser</LANG>
+    <LANG ID="it-IT">[SQUARE] Aggiorna</LANG>
+    <LANG ID="ja-JP">[SQUARE] 更新</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChangeTab</LANG>
+    <LANG ID="en-GB">[L1][R1] Change Tab</LANG>
+    <LANG ID="de-DE">[L1][R1] Registerkarte wechseln</LANG>
+    <LANG ID="es-ES">[L1][R1] Cambiar pestaña</LANG>
+    <LANG ID="fr-FR">[L1][R1] Changer d'onglet</LANG>
+    <LANG ID="it-IT">[L1][R1] Cambia scheda</LANG>
+    <LANG ID="ja-JP">[L1][R1] タブを変更</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChangePage</LANG>
+    <LANG ID="en-GB">[L2][R2] Change Page</LANG>
+    <LANG ID="de-DE">[L2][R2] Seite wechseln</LANG>
+    <LANG ID="es-ES">[L2][R2] Cambiar página</LANG>
+    <LANG ID="fr-FR">[L2][R2] Changer de page</LANG>
+    <LANG ID="it-IT">[L2][R2] Cambia pagina</LANG>
+    <LANG ID="ja-JP">[L2][R2] ページを変更</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBack</LANG>
+    <LANG ID="en-GB">[CIRCLE] Back</LANG>
+    <LANG ID="de-DE">[CIRCLE] Zurück</LANG>
+    <LANG ID="es-ES">[CIRCLE] Atrás</LANG>
+    <LANG ID="fr-FR">[CIRCLE] Retour</LANG>
+    <LANG ID="it-IT">[CIRCLE] Indietro</LANG>
+    <LANG ID="ja-JP">[CIRCLE] 戻る</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kClose</LANG>
+    <LANG ID="en-GB">[CIRCLE] Close</LANG>
+    <LANG ID="de-DE">[CIRCLE] Schließen</LANG>
+    <LANG ID="es-ES">[CIRCLE] Cerrar</LANG>
+    <LANG ID="fr-FR">[CIRCLE] Fermer</LANG>
+    <LANG ID="it-IT">[CIRCLE] Chiudi</LANG>
+    <LANG ID="ja-JP">[CIRCLE] 閉じる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPrevious</LANG>
+    <LANG ID="en-GB">[L1]</LANG>
+    <LANG ID="de-DE">[L1] Vorherige</LANG>
+    <LANG ID="es-ES">[L1] Anterior</LANG>
+    <LANG ID="fr-FR">[L1] Précédent</LANG>
+    <LANG ID="it-IT">[L1] Precedente</LANG>
+    <LANG ID="ja-JP">[L1] 前</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kNext</LANG>
+    <LANG ID="en-GB">[R1]</LANG>
+    <LANG ID="de-DE">[R1] Nächste</LANG>
+    <LANG ID="es-ES">[R1] Siguiente</LANG>
+    <LANG ID="fr-FR">[R1] Suivant</LANG>
+    <LANG ID="it-IT">[R1] Successivo</LANG>
+    <LANG ID="ja-JP">[R1] 次</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kExitButton</LANG>
+    <LANG ID="en-GB">[TRIANGLE] Exit</LANG>
+    <LANG ID="de-DE">[TRIANGLE] Beenden</LANG>
+    <LANG ID="es-ES">[TRIANGLE] Salir</LANG>
+    <LANG ID="fr-FR">[TRIANGLE] Quitter</LANG>
+    <LANG ID="it-IT">[TRIANGLE] Esci</LANG>
+    <LANG ID="ja-JP">[TRIANGLE] 終了</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTurnOffButton</LANG>
+    <LANG ID="en-GB">[TRIANGLE] Turn Off</LANG>
+    <LANG ID="de-DE">[TRIANGLE] Ausschalten</LANG>
+    <LANG ID="es-ES">[TRIANGLE] Apagar</LANG>
+    <LANG ID="fr-FR">[TRIANGLE] Éteindre</LANG>
+    <LANG ID="it-IT">[TRIANGLE] Spegni</LANG>
+    <LANG ID="ja-JP">[TRIANGLE] 電源を切る</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTurnOnButton</LANG>
+    <LANG ID="en-GB">[TRIANGLE] Turn On</LANG>
+    <LANG ID="de-DE">[TRIANGLE] Einschalten</LANG>
+    <LANG ID="es-ES">[TRIANGLE] Encender</LANG>
+    <LANG ID="fr-FR">[TRIANGLE] Allumer</LANG>
+    <LANG ID="it-IT">[TRIANGLE] Accendi</LANG>
+    <LANG ID="ja-JP">[TRIANGLE] 電源を入れる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol1</LANG>
+    <LANG ID="en-GB">[R1]</LANG>
+    <LANG ID="de-DE">[R1]</LANG>
+    <LANG ID="es-ES">[R1]</LANG>
+    <LANG ID="fr-FR">[R1]</LANG>
+    <LANG ID="it-IT">[R1]</LANG>
+    <LANG ID="ja-JP">[R1]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol2</LANG>
+    <LANG ID="en-GB">[L1]</LANG>
+    <LANG ID="de-DE">[L1]</LANG>
+    <LANG ID="es-ES">[L1]</LANG>
+    <LANG ID="fr-FR">[L1]</LANG>
+    <LANG ID="it-IT">[L1]</LANG>
+    <LANG ID="ja-JP">[L1]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol3</LANG>
+    <LANG ID="en-GB">[L2]</LANG>
+    <LANG ID="de-DE">[L2]</LANG>
+    <LANG ID="es-ES">[L2]</LANG>
+    <LANG ID="fr-FR">[L2]</LANG>
+    <LANG ID="it-IT">[L2]</LANG>
+    <LANG ID="ja-JP">[L2]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol4</LANG>
+    <LANG ID="en-GB">[R2]</LANG>
+    <LANG ID="de-DE">[R2]</LANG>
+    <LANG ID="es-ES">[R2]</LANG>
+    <LANG ID="fr-FR">[R2]</LANG>
+    <LANG ID="it-IT">[R2]</LANG>
+    <LANG ID="ja-JP">[R2]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol5</LANG>
+    <LANG ID="en-GB">[TRIANGLE]</LANG>
+    <LANG ID="de-DE">[TRIANGLE]</LANG>
+    <LANG ID="es-ES">[TRIANGLE]</LANG>
+    <LANG ID="fr-FR">[TRIANGLE]</LANG>
+    <LANG ID="it-IT">[TRIANGLE]</LANG>
+    <LANG ID="ja-JP">[TRIANGLE]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol6</LANG>
+    <LANG ID="en-GB">[SQUARE]</LANG>
+    <LANG ID="de-DE">[SQUARE]</LANG>
+    <LANG ID="es-ES">[SQUARE]</LANG>
+    <LANG ID="fr-FR">[SQUARE]</LANG>
+    <LANG ID="it-IT">[SQUARE]</LANG>
+    <LANG ID="ja-JP">[SQUARE]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol7</LANG>
+    <LANG ID="en-GB">[CIRCLE]</LANG>
+    <LANG ID="de-DE">[CIRCLE]</LANG>
+    <LANG ID="es-ES">[CIRCLE]</LANG>
+    <LANG ID="fr-FR">[CIRCLE]</LANG>
+    <LANG ID="it-IT">[CIRCLE]</LANG>
+    <LANG ID="ja-JP">[CIRCLE]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol8</LANG>
+    <LANG ID="en-GB">[CROSS]</LANG>
+    <LANG ID="de-DE">[CROSS]</LANG>
+    <LANG ID="es-ES">[CROSS]</LANG>
+    <LANG ID="fr-FR">[CROSS]</LANG>
+    <LANG ID="it-IT">[CROSS]</LANG>
+    <LANG ID="ja-JP">[CROSS]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol9</LANG>
+    <LANG ID="en-GB">[UP]</LANG>
+    <LANG ID="de-DE">[UP]</LANG>
+    <LANG ID="es-ES">[UP]</LANG>
+    <LANG ID="fr-FR">[UP]</LANG>
+    <LANG ID="it-IT">[UP]</LANG>
+    <LANG ID="ja-JP">[UP]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol10</LANG>
+    <LANG ID="en-GB">[DOWN]</LANG>
+    <LANG ID="de-DE">[DOWN]</LANG>
+    <LANG ID="es-ES">[DOWN]</LANG>
+    <LANG ID="fr-FR">[DOWN]</LANG>
+    <LANG ID="it-IT">[DOWN]</LANG>
+    <LANG ID="ja-JP">[DOWN]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol11</LANG>
+    <LANG ID="en-GB">[LEFT]</LANG>
+    <LANG ID="de-DE">[LEFT]</LANG>
+    <LANG ID="es-ES">[LEFT]</LANG>
+    <LANG ID="fr-FR">[LEFT]</LANG>
+    <LANG ID="it-IT">[LEFT]</LANG>
+    <LANG ID="ja-JP">[LEFT]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol12</LANG>
+    <LANG ID="en-GB">[RIGHT]</LANG>
+    <LANG ID="de-DE">[RIGHT]</LANG>
+    <LANG ID="es-ES">[RIGHT]</LANG>
+    <LANG ID="fr-FR">[RIGHT]</LANG>
+    <LANG ID="it-IT">[RIGHT]</LANG>
+    <LANG ID="ja-JP">[RIGHT]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol13</LANG>
+    <LANG ID="en-GB">[UP][DOWN]</LANG>
+    <LANG ID="de-DE">[UP][DOWN]</LANG>
+    <LANG ID="es-ES">[UP][DOWN]</LANG>
+    <LANG ID="fr-FR">[UP][DOWN]</LANG>
+    <LANG ID="it-IT">[UP][DOWN]</LANG>
+    <LANG ID="ja-JP">[UP][DOWN]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol14</LANG>
+    <LANG ID="en-GB">[LEFT][RIGHT]</LANG>
+    <LANG ID="de-DE">[LEFT][RIGHT]</LANG>
+    <LANG ID="es-ES">[LEFT][RIGHT]</LANG>
+    <LANG ID="fr-FR">[LEFT][RIGHT]</LANG>
+    <LANG ID="it-IT">[LEFT][RIGHT]</LANG>
+    <LANG ID="ja-JP">[LEFT][RIGHT]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol15</LANG>
+    <LANG ID="en-GB">[UP][DOWN][LEFT][RIGHT]</LANG>
+    <LANG ID="de-DE">[UP][DOWN][LEFT][RIGHT]</LANG>
+    <LANG ID="es-ES">[UP][DOWN][LEFT][RIGHT]</LANG>
+    <LANG ID="fr-FR">[UP][DOWN][LEFT][RIGHT]</LANG>
+    <LANG ID="it-IT">[UP][DOWN][LEFT][RIGHT]</LANG>
+    <LANG ID="ja-JP">[UP][DOWN][LEFT][RIGHT]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol16</LANG>
+    <LANG ID="en-GB">[START]</LANG>
+    <LANG ID="de-DE">[START]</LANG>
+    <LANG ID="es-ES">[START]</LANG>
+    <LANG ID="fr-FR">[START]</LANG>
+    <LANG ID="it-IT">[START]</LANG>
+    <LANG ID="ja-JP">[START]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol17</LANG>
+    <LANG ID="en-GB">[SELECT]</LANG>
+    <LANG ID="de-DE">[SELECT]</LANG>
+    <LANG ID="es-ES">[SELECT]</LANG>
+    <LANG ID="fr-FR">[SELECT]</LANG>
+    <LANG ID="it-IT">[SELECT]</LANG>
+    <LANG ID="ja-JP">[SELECT]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol18</LANG>
+    <LANG ID="en-GB">[L3]</LANG>
+    <LANG ID="de-DE">[L3]</LANG>
+    <LANG ID="es-ES">[L3]</LANG>
+    <LANG ID="fr-FR">[L3]</LANG>
+    <LANG ID="it-IT">[L3]</LANG>
+    <LANG ID="ja-JP">[L3]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol19</LANG>
+    <LANG ID="en-GB">[R3]</LANG>
+    <LANG ID="de-DE">[R3]</LANG>
+    <LANG ID="es-ES">[R3]</LANG>
+    <LANG ID="fr-FR">[R3]</LANG>
+    <LANG ID="it-IT">[R3]</LANG>
+    <LANG ID="ja-JP">[R3]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol20</LANG>
+    <LANG ID="en-GB">[LEFTSTICK]</LANG>
+    <LANG ID="de-DE">[LEFTSTICK]</LANG>
+    <LANG ID="es-ES">[LEFTSTICK]</LANG>
+    <LANG ID="fr-FR">[LEFTSTICK]</LANG>
+    <LANG ID="it-IT">[LEFTSTICK]</LANG>
+    <LANG ID="ja-JP">[LEFTSTICK]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol21</LANG>
+    <LANG ID="en-GB">[RIGHTSTICK]</LANG>
+    <LANG ID="de-DE">[RIGHTSTICK]</LANG>
+    <LANG ID="es-ES">[RIGHTSTICK]</LANG>
+    <LANG ID="fr-FR">[RIGHTSTICK]</LANG>
+    <LANG ID="it-IT">[RIGHTSTICK]</LANG>
+    <LANG ID="ja-JP">[RIGHTSTICK]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSymbol22</LANG>
+    <LANG ID="en-GB">[MOTIONSENSOR]</LANG>
+    <LANG ID="de-DE">[MOTIONSENSOR]</LANG>
+    <LANG ID="es-ES">[MOTIONSENSOR]</LANG>
+    <LANG ID="fr-FR">[MOTIONSENSOR]</LANG>
+    <LANG ID="it-IT">[MOTIONSENSOR]</LANG>
+    <LANG ID="ja-JP">[MOTIONSENSOR]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSpacebar</LANG>
+    <LANG ID="en-GB">[TRIANGLE] Space</LANG>
+    <LANG ID="de-DE">[TRIANGLE] Leerzeichen</LANG>
+    <LANG ID="es-ES">[TRIANGLE] Espacio</LANG>
+    <LANG ID="fr-FR">[TRIANGLE] Espace</LANG>
+    <LANG ID="it-IT">[TRIANGLE] Spazio</LANG>
+    <LANG ID="ja-JP">[TRIANGLE] スペース</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCursor</LANG>
+    <LANG ID="en-GB">[L1][R1] Cursor</LANG>
+    <LANG ID="de-DE">[L1][R1] Cursor</LANG>
+    <LANG ID="es-ES">[L1][R1] Cursor</LANG>
+    <LANG ID="fr-FR">[L1][R1] Curseur</LANG>
+    <LANG ID="it-IT">[L1][R1] Cursore</LANG>
+    <LANG ID="ja-JP">[L1][R1] カーソル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnterButton</LANG>
+    <LANG ID="en-GB">[START] Confirm</LANG>
+    <LANG ID="de-DE">[START] Bestätigen</LANG>
+    <LANG ID="es-ES">[START] Confirmar</LANG>
+    <LANG ID="fr-FR">[START] Confirmer</LANG>
+    <LANG ID="it-IT">[START] Conferma</LANG>
+    <LANG ID="ja-JP">[START] 確認</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBackspace</LANG>
+    <LANG ID="en-GB">[SQUARE] Delete</LANG>
+    <LANG ID="de-DE">[SQUARE] Löschen</LANG>
+    <LANG ID="es-ES">[SQUARE] Eliminar</LANG>
+    <LANG ID="fr-FR">[SQUARE] Supprimer</LANG>
+    <LANG ID="it-IT">[SQUARE] Elimina</LANG>
+    <LANG ID="ja-JP">[SQUARE] 削除</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kToggleSet</LANG>
+    <LANG ID="en-GB">[R2] Toggle Char Set</LANG>
+    <LANG ID="de-DE">[R2] Zeichensatz umschalten</LANG>
+    <LANG ID="es-ES">[R2] Cambiar conjunto de caracteres</LANG>
+    <LANG ID="fr-FR">[R2] Basculer le jeu de caractères</LANG>
+    <LANG ID="it-IT">[R2] Cambia set di caratteri</LANG>
+    <LANG ID="ja-JP">[R2] 文字セットの切り替え</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPlayersOnline</LANG>
+    <LANG ID="en-GB">Players Online</LANG>
+    <LANG ID="de-DE">Spieler Online</LANG>
+    <LANG ID="es-ES">Jugadores en Línea</LANG>
+    <LANG ID="fr-FR">Joueurs en Ligne</LANG>
+    <LANG ID="it-IT">Giocatori Online</LANG>
+    <LANG ID="ja-JP">オンラインプレイヤー</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kActiveLobbies</LANG>
+    <LANG ID="en-GB">Active Lobbies</LANG>
+    <LANG ID="de-DE">Aktive Lobbys</LANG>
+    <LANG ID="es-ES">Lobbies Activos</LANG>
+    <LANG ID="fr-FR">Lobbies Actifs</LANG>
+    <LANG ID="it-IT">Lobby Attive</LANG>
+    <LANG ID="ja-JP">アクティブなロビー</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPicks</LANG>
+    <LANG ID="en-GB">Home Lab Picks</LANG>
+    <LANG ID="de-DE">Home Lab Auswahl</LANG>
+    <LANG ID="es-ES">Home Lab Selecciones</LANG>
+    <LANG ID="fr-FR">Home Lab Choix</LANG>
+    <LANG ID="it-IT">Home Lab Scelte</LANG>
+    <LANG ID="ja-JP">Home Lab ピック</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPopularToday</LANG>
+    <LANG ID="en-GB">Popular Today</LANG>
+    <LANG ID="de-DE">Heute Beliebt</LANG>
+    <LANG ID="es-ES">Popular Hoy</LANG>
+    <LANG ID="fr-FR">Populaire Aujourd'hui</LANG>
+    <LANG ID="it-IT">Popolare Oggi</LANG>
+    <LANG ID="ja-JP">今日の人気</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFavorites</LANG>
+    <LANG ID="en-GB">Favorites</LANG>
+    <LANG ID="de-DE">Favoriten</LANG>
+    <LANG ID="es-ES">Favoritos</LANG>
+    <LANG ID="fr-FR">Favoris</LANG>
+    <LANG ID="it-IT">Preferiti</LANG>
+    <LANG ID="ja-JP">お気に入り</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kWhosOnline</LANG>
+    <LANG ID="en-GB">Who's Online</LANG>
+    <LANG ID="de-DE">Wer ist Online</LANG>
+    <LANG ID="es-ES">Quién está en Línea</LANG>
+    <LANG ID="fr-FR">Qui est en Ligne</LANG>
+    <LANG ID="it-IT">Chi è Online</LANG>
+    <LANG ID="ja-JP">誰がオンライン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMyInventory</LANG>
+    <LANG ID="en-GB">My Inventory</LANG>
+    <LANG ID="de-DE">Mein Inventar</LANG>
+    <LANG ID="es-ES">Mi Inventario</LANG>
+    <LANG ID="fr-FR">Mon Inventaire</LANG>
+    <LANG ID="it-IT">Il Mio Inventario</LANG>
+    <LANG ID="ja-JP">マイインベントリ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLoad</LANG>
+    <LANG ID="en-GB">Load</LANG>
+    <LANG ID="de-DE">Laden</LANG>
+    <LANG ID="es-ES">Cargar</LANG>
+    <LANG ID="fr-FR">Charger</LANG>
+    <LANG ID="it-IT">Carica</LANG>
+    <LANG ID="ja-JP">ロード</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSave</LANG>
+    <LANG ID="en-GB">Save to Inventory</LANG>
+    <LANG ID="de-DE">Im Inventar speichern</LANG>
+    <LANG ID="es-ES">Guardar en el inventario</LANG>
+    <LANG ID="fr-FR">Enregistrer dans l'inventaire</LANG>
+    <LANG ID="it-IT">Salva nell'inventario</LANG>
+    <LANG ID="ja-JP">インベントリに保存</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEdit</LANG>
+    <LANG ID="en-GB">Edit</LANG>
+    <LANG ID="de-DE">Bearbeiten</LANG>
+    <LANG ID="es-ES">Editar</LANG>
+    <LANG ID="fr-FR">Modifier</LANG>
+    <LANG ID="it-IT">Modifica</LANG>
+    <LANG ID="ja-JP">編集</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMaleClothing</LANG>
+    <LANG ID="en-GB">Male Clothing</LANG>
+    <LANG ID="de-DE">Männliche Kleidung</LANG>
+    <LANG ID="es-ES">Ropa Masculina</LANG>
+    <LANG ID="fr-FR">Vêtements Masculins</LANG>
+    <LANG ID="it-IT">Vestiti Maschili</LANG>
+    <LANG ID="ja-JP">男性の服</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kOutfit</LANG>
+    <LANG ID="en-GB">Outfit</LANG>
+    <LANG ID="de-DE">Outfit</LANG>
+    <LANG ID="es-ES">Atuendo</LANG>
+    <LANG ID="fr-FR">Tenue</LANG>
+    <LANG ID="it-IT">Tenuta</LANG>
+    <LANG ID="ja-JP">服装</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBundle</LANG>
+    <LANG ID="en-GB">Bundle</LANG>
+    <LANG ID="de-DE">Bündel</LANG>
+    <LANG ID="es-ES">Paquete</LANG>
+    <LANG ID="fr-FR">Lot</LANG>
+    <LANG ID="it-IT">Pacchetto</LANG>
+    <LANG ID="ja-JP">バンドル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHat</LANG>
+    <LANG ID="en-GB">Hat</LANG>
+    <LANG ID="de-DE">Hut</LANG>
+    <LANG ID="es-ES">Sombrero</LANG>
+    <LANG ID="fr-FR">Chapeau</LANG>
+    <LANG ID="it-IT">Cappello</LANG>
+    <LANG ID="ja-JP">帽子</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHair</LANG>
+    <LANG ID="en-GB">Hair</LANG>
+    <LANG ID="de-DE">Haare</LANG>
+    <LANG ID="es-ES">Pelo</LANG>
+    <LANG ID="fr-FR">Cheveux</LANG>
+    <LANG ID="it-IT">Capelli</LANG>
+    <LANG ID="ja-JP">髪</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTorso</LANG>
+    <LANG ID="en-GB">Torso</LANG>
+    <LANG ID="de-DE">Oberkörper</LANG>
+    <LANG ID="es-ES">Torso</LANG>
+    <LANG ID="fr-FR">Torse</LANG>
+    <LANG ID="it-IT">Torso</LANG>
+    <LANG ID="ja-JP">胴体</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHands</LANG>
+    <LANG ID="en-GB">Hands</LANG>
+    <LANG ID="de-DE">Hände</LANG>
+    <LANG ID="es-ES">Manos</LANG>
+    <LANG ID="fr-FR">Mains</LANG>
+    <LANG ID="it-IT">Mani</LANG>
+    <LANG ID="ja-JP">手</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLegs</LANG>
+    <LANG ID="en-GB">Legs</LANG>
+    <LANG ID="de-DE">Beine</LANG>
+    <LANG ID="es-ES">Piernas</LANG>
+    <LANG ID="fr-FR">Jambes</LANG>
+    <LANG ID="it-IT">Gambe</LANG>
+    <LANG ID="ja-JP">脚</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFeet</LANG>
+    <LANG ID="en-GB">Feet</LANG>
+    <LANG ID="de-DE">Füße</LANG>
+    <LANG ID="es-ES">Pies</LANG>
+    <LANG ID="fr-FR">Pieds</LANG>
+    <LANG ID="it-IT">Piedi</LANG>
+    <LANG ID="ja-JP">足</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kJewellery</LANG>
+    <LANG ID="en-GB">Jewellery</LANG>
+    <LANG ID="de-DE">Schmuck</LANG>
+    <LANG ID="es-ES">Joyería</LANG>
+    <LANG ID="fr-FR">Bijoux</LANG>
+    <LANG ID="it-IT">Gioielli</LANG>
+    <LANG ID="ja-JP">ジュエリー</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kGlasses</LANG>
+    <LANG ID="en-GB">Glasses</LANG>
+    <LANG ID="de-DE">Brille</LANG>
+    <LANG ID="es-ES">Gafas</LANG>
+    <LANG ID="fr-FR">Lunettes</LANG>
+    <LANG ID="it-IT">Occhiali</LANG>
+    <LANG ID="ja-JP">メガネ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHeadphones</LANG>
+    <LANG ID="en-GB">Headphones</LANG>
+    <LANG ID="de-DE">Kopfhörer</LANG>
+    <LANG ID="es-ES">Auriculares</LANG>
+    <LANG ID="fr-FR">Écouteurs</LANG>
+    <LANG ID="it-IT">Cuffie</LANG>
+    <LANG ID="ja-JP">ヘッドフォン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFacialHair</LANG>
+    <LANG ID="en-GB">Facial Hair</LANG>
+    <LANG ID="de-DE">Gesichtshaar</LANG>
+    <LANG ID="es-ES">Pelo Facial</LANG>
+    <LANG ID="fr-FR">Poils Faciaux</LANG>
+    <LANG ID="it-IT">Peli Facciali</LANG>
+    <LANG ID="ja-JP">顔の毛</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFemaleClothing</LANG>
+    <LANG ID="en-GB">Female Clothing</LANG>
+    <LANG ID="de-DE">Weibliche Kleidung</LANG>
+    <LANG ID="es-ES">Ropa Femenina</LANG>
+    <LANG ID="fr-FR">Vêtements Féminins</LANG>
+    <LANG ID="it-IT">Abbigliamento Femminile</LANG>
+    <LANG ID="ja-JP">女性の服</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPortable</LANG>
+    <LANG ID="en-GB">Portables</LANG>
+    <LANG ID="de-DE">Tragbare Gegenstände</LANG>
+    <LANG ID="es-ES">Portátiles</LANG>
+    <LANG ID="fr-FR">Objets Portables</LANG>
+    <LANG ID="it-IT">Oggetti Portatili</LANG>
+    <LANG ID="ja-JP">ポータブルアイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCompanion</LANG>
+    <LANG ID="en-GB">Companion</LANG>
+    <LANG ID="de-DE">Begleiter</LANG>
+    <LANG ID="es-ES">Compañero</LANG>
+    <LANG ID="fr-FR">Compagnon</LANG>
+    <LANG ID="it-IT">Compagno</LANG>
+    <LANG ID="ja-JP">コンパニオン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLocomotion</LANG>
+    <LANG ID="en-GB">Locomotion</LANG>
+    <LANG ID="de-DE">Fortbewegung</LANG>
+    <LANG ID="es-ES">Locomoción</LANG>
+    <LANG ID="fr-FR">Locomotion</LANG>
+    <LANG ID="it-IT">Locomozione</LANG>
+    <LANG ID="ja-JP">ロコモーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAnimation</LANG>
+    <LANG ID="en-GB">Animation</LANG>
+    <LANG ID="de-DE">Animation</LANG>
+    <LANG ID="es-ES">Animación</LANG>
+    <LANG ID="fr-FR">Animation</LANG>
+    <LANG ID="it-IT">Animazione</LANG>
+    <LANG ID="ja-JP">アニメーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kInteraction</LANG>
+    <LANG ID="en-GB">Interaction</LANG>
+    <LANG ID="de-DE">Interaktion</LANG>
+    <LANG ID="es-ES">Interacción</LANG>
+    <LANG ID="fr-FR">Interaction</LANG>
+    <LANG ID="it-IT">Interazione</LANG>
+    <LANG ID="ja-JP">インタラクション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kGroup</LANG>
+    <LANG ID="en-GB">Group</LANG>
+    <LANG ID="de-DE">Gruppe</LANG>
+    <LANG ID="es-ES">Grupo</LANG>
+    <LANG ID="fr-FR">Groupe</LANG>
+    <LANG ID="it-IT">Gruppo</LANG>
+    <LANG ID="ja-JP">グループ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSoundpack</LANG>
+    <LANG ID="en-GB">Soundpack</LANG>
+    <LANG ID="de-DE">Soundpaket</LANG>
+    <LANG ID="es-ES">Paquete de Sonido</LANG>
+    <LANG ID="fr-FR">Pack de Sons</LANG>
+    <LANG ID="it-IT">Pacchetto Sonoro</LANG>
+    <LANG ID="ja-JP">サウンドパック</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFurniture</LANG>
+    <LANG ID="en-GB">Furniture</LANG>
+    <LANG ID="de-DE">Möbel</LANG>
+    <LANG ID="es-ES">Muebles</LANG>
+    <LANG ID="fr-FR">Meubles</LANG>
+    <LANG ID="it-IT">Mobili</LANG>
+    <LANG ID="ja-JP">家具</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAppliance</LANG>
+    <LANG ID="en-GB">Appliance</LANG>
+    <LANG ID="de-DE">Gerät</LANG>
+    <LANG ID="es-ES">Electrodoméstico</LANG>
+    <LANG ID="fr-FR">Appareil</LANG>
+    <LANG ID="it-IT">Elettrodomestico</LANG>
+    <LANG ID="ja-JP">家電</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChair</LANG>
+    <LANG ID="en-GB">Chair</LANG>
+    <LANG ID="de-DE">Stuhl</LANG>
+    <LANG ID="es-ES">Silla</LANG>
+    <LANG ID="fr-FR">Chaise</LANG>
+    <LANG ID="it-IT">Sedia</LANG>
+    <LANG ID="ja-JP">椅子</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCube</LANG>
+    <LANG ID="en-GB">Cube</LANG>
+    <LANG ID="de-DE">Würfel</LANG>
+    <LANG ID="es-ES">Cubo</LANG>
+    <LANG ID="fr-FR">Cube</LANG>
+    <LANG ID="it-IT">Cubo</LANG>
+    <LANG ID="ja-JP">キューブ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFlooring</LANG>
+    <LANG ID="en-GB">Flooring</LANG>
+    <LANG ID="de-DE">Bodenbelag</LANG>
+    <LANG ID="es-ES">Suelo</LANG>
+    <LANG ID="fr-FR">Revêtement de sol</LANG>
+    <LANG ID="it-IT">Pavimentazione</LANG>
+    <LANG ID="ja-JP">床材</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFootstool</LANG>
+    <LANG ID="en-GB">Footstool</LANG>
+    <LANG ID="de-DE">Fußhocker</LANG>
+    <LANG ID="es-ES">Reposapiés</LANG>
+    <LANG ID="fr-FR">Repose-pieds</LANG>
+    <LANG ID="it-IT">Poggiapiedi</LANG>
+    <LANG ID="ja-JP">フットスツール</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFrame</LANG>
+    <LANG ID="en-GB">Frame</LANG>
+    <LANG ID="de-DE">Rahmen</LANG>
+    <LANG ID="es-ES">Marco</LANG>
+    <LANG ID="fr-FR">Cadre</LANG>
+    <LANG ID="it-IT">Cornice</LANG>
+    <LANG ID="ja-JP">フレーム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLight</LANG>
+    <LANG ID="en-GB">Light</LANG>
+    <LANG ID="de-DE">Licht</LANG>
+    <LANG ID="es-ES">Luz</LANG>
+    <LANG ID="fr-FR">Lumière</LANG>
+    <LANG ID="it-IT">Luce</LANG>
+    <LANG ID="ja-JP">ライト</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kOrnament</LANG>
+    <LANG ID="en-GB">Ornament</LANG>
+    <LANG ID="de-DE">Ornament</LANG>
+    <LANG ID="es-ES">Ornamento</LANG>
+    <LANG ID="fr-FR">Ornement</LANG>
+    <LANG ID="it-IT">Ornamento</LANG>
+    <LANG ID="ja-JP">オーナメント</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSofa</LANG>
+    <LANG ID="en-GB">Sofa</LANG>
+    <LANG ID="de-DE">Sofa</LANG>
+    <LANG ID="es-ES">Sofá</LANG>
+    <LANG ID="fr-FR">Canapé</LANG>
+    <LANG ID="it-IT">Divano</LANG>
+    <LANG ID="ja-JP">ソファ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTable</LANG>
+    <LANG ID="en-GB">Table</LANG>
+    <LANG ID="de-DE">Tisch</LANG>
+    <LANG ID="es-ES">Mesa</LANG>
+    <LANG ID="fr-FR">Table</LANG>
+    <LANG ID="it-IT">Tavolo</LANG>
+    <LANG ID="ja-JP">テーブル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kStorage</LANG>
+    <LANG ID="en-GB">Storage</LANG>
+    <LANG ID="de-DE">Lagerung</LANG>
+    <LANG ID="es-ES">Almacenamiento</LANG>
+    <LANG ID="fr-FR">Rangement</LANG>
+    <LANG ID="it-IT">Stoccaggio</LANG>
+    <LANG ID="ja-JP">収納</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kScenes</LANG>
+    <LANG ID="en-GB">Scenes</LANG>
+    <LANG ID="de-DE">Szenen</LANG>
+    <LANG ID="es-ES">Escenas</LANG>
+    <LANG ID="fr-FR">Scènes</LANG>
+    <LANG ID="it-IT">Scene</LANG>
+    <LANG ID="ja-JP">シーン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEntitlement</LANG>
+    <LANG ID="en-GB">Entitlement</LANG>
+    <LANG ID="de-DE">Berechtigung</LANG>
+    <LANG ID="es-ES">Derecho</LANG>
+    <LANG ID="fr-FR">Droit</LANG>
+    <LANG ID="it-IT">Diritto</LANG>
+    <LANG ID="ja-JP">権利</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kExpansion</LANG>
+    <LANG ID="en-GB">Expansion</LANG>
+    <LANG ID="de-DE">Erweiterung</LANG>
+    <LANG ID="es-ES">Expansión</LANG>
+    <LANG ID="fr-FR">Extension</LANG>
+    <LANG ID="it-IT">Espansione</LANG>
+    <LANG ID="ja-JP">拡張</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPublicScenes</LANG>
+    <LANG ID="en-GB">Public Scenes</LANG>
+    <LANG ID="de-DE">Öffentliche Szenen</LANG>
+    <LANG ID="es-ES">Escenas Públicas</LANG>
+    <LANG ID="fr-FR">Scènes Publiques</LANG>
+    <LANG ID="it-IT">Scene Pubbliche</LANG>
+    <LANG ID="ja-JP">公開シーン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPrivateScenes</LANG>
+    <LANG ID="en-GB">Private Scenes</LANG>
+    <LANG ID="de-DE">Private Szenen</LANG>
+    <LANG ID="es-ES">Escenas Privadas</LANG>
+    <LANG ID="fr-FR">Scènes Privées</LANG>
+    <LANG ID="it-IT">Scene Private</LANG>
+    <LANG ID="ja-JP">プライベートシーン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSearch</LANG>
+    <LANG ID="en-GB">Search</LANG>
+    <LANG ID="de-DE">Suche</LANG>
+    <LANG ID="es-ES">Buscar</LANG>
+    <LANG ID="fr-FR">Rechercher</LANG>
+    <LANG ID="it-IT">Cerca</LANG>
+    <LANG ID="ja-JP">検索</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kNewSearch</LANG>
+    <LANG ID="en-GB">New Search</LANG>
+    <LANG ID="de-DE">Neue Suche</LANG>
+    <LANG ID="es-ES">Nueva Búsqueda</LANG>
+    <LANG ID="fr-FR">Nouvelle Recherche</LANG>
+    <LANG ID="it-IT">Nuova Ricerca</LANG>
+    <LANG ID="ja-JP">新しい検索</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSearchNow</LANG>
+    <LANG ID="en-GB">Search Now</LANG>
+    <LANG ID="de-DE">Jetzt suchen</LANG>
+    <LANG ID="es-ES">Buscar ahora</LANG>
+    <LANG ID="fr-FR">Rechercher maintenant</LANG>
+    <LANG ID="it-IT">Cerca ora</LANG>
+    <LANG ID="ja-JP">今すぐ検索</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChat</LANG>
+    <LANG ID="en-GB">Chat</LANG>
+    <LANG ID="de-DE">Chat</LANG>
+    <LANG ID="es-ES">Chat</LANG>
+    <LANG ID="fr-FR">Chat</LANG>
+    <LANG ID="it-IT">Chat</LANG>
+    <LANG ID="ja-JP">チャット</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kGettingStarted</LANG>
+    <LANG ID="en-GB">Getting Started</LANG>
+    <LANG ID="de-DE">Erste Schritte</LANG>
+    <LANG ID="es-ES">Primeros Pasos</LANG>
+    <LANG ID="fr-FR">Démarrer</LANG>
+    <LANG ID="it-IT">Per Iniziare</LANG>
+    <LANG ID="ja-JP">はじめに</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kManagingInventory</LANG>
+    <LANG ID="en-GB">Managing Inventory</LANG>
+    <LANG ID="de-DE">Inventar verwalten</LANG>
+    <LANG ID="es-ES">Gestionar inventario</LANG>
+    <LANG ID="fr-FR">Gérer l'inventaire</LANG>
+    <LANG ID="it-IT">Gestire l'inventario</LANG>
+    <LANG ID="ja-JP">インベントリ管理</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kUsingClothing</LANG>
+    <LANG ID="en-GB">Using Clothing</LANG>
+    <LANG ID="de-DE">Kleidung verwenden</LANG>
+    <LANG ID="es-ES">Usar ropa</LANG>
+    <LANG ID="fr-FR">Utiliser des vêtements</LANG>
+    <LANG ID="it-IT">Usare abbigliamento</LANG>
+    <LANG ID="ja-JP">服の使用</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kUsingPortables</LANG>
+    <LANG ID="en-GB">Using Portables</LANG>
+    <LANG ID="de-DE">Tragbare Gegenstände verwenden</LANG>
+    <LANG ID="es-ES">Usar portátiles</LANG>
+    <LANG ID="fr-FR">Utiliser des portables</LANG>
+    <LANG ID="it-IT">Usare oggetti portatili</LANG>
+    <LANG ID="ja-JP">ポータブルアイテムの使用</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kUsingFurniture</LANG>
+    <LANG ID="en-GB">Using Furniture</LANG>
+    <LANG ID="de-DE">Möbel verwenden</LANG>
+    <LANG ID="es-ES">Usar muebles</LANG>
+    <LANG ID="fr-FR">Utiliser des meubles</LANG>
+    <LANG ID="it-IT">Usare mobili</LANG>
+    <LANG ID="ja-JP">家具の使用</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSceneEntitlements</LANG>
+    <LANG ID="en-GB">Scene Entitlements</LANG>
+    <LANG ID="de-DE">Szenenberechtigungen</LANG>
+    <LANG ID="es-ES">Derechos de escena</LANG>
+    <LANG ID="fr-FR">Droits de scène</LANG>
+    <LANG ID="it-IT">Diritti di scena</LANG>
+    <LANG ID="ja-JP">シーンの権利</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSearchParameters</LANG>
+    <LANG ID="en-GB">Search Parameters</LANG>
+    <LANG ID="de-DE">Suchparameter</LANG>
+    <LANG ID="es-ES">Parámetros de búsqueda</LANG>
+    <LANG ID="fr-FR">Paramètres de recherche</LANG>
+    <LANG ID="it-IT">Parametri di ricerca</LANG>
+    <LANG ID="ja-JP">検索パラメータ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kGJSExplained</LANG>
+    <LANG ID="en-GB">GJS Explained</LANG>
+    <LANG ID="de-DE">GJS erklärt</LANG>
+    <LANG ID="es-ES">GJS explicado</LANG>
+    <LANG ID="fr-FR">GJS expliqué</LANG>
+    <LANG ID="it-IT">GJS spiegato</LANG>
+    <LANG ID="ja-JP">GJSの説明</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRTRCToolInfo</LANG>
+    <LANG ID="en-GB">RTRC Tool Info</LANG>
+    <LANG ID="de-DE">RTRC-Tool-Info</LANG>
+    <LANG ID="es-ES">Información de la herramienta RTRC</LANG>
+    <LANG ID="fr-FR">Informations sur l'outil RTRC</LANG>
+    <LANG ID="it-IT">Informazioni sullo strumento RTRC</LANG>
+    <LANG ID="ja-JP">RTRCツール情報</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSettings</LANG>
+    <LANG ID="en-GB">Settings</LANG>
+    <LANG ID="de-DE">Einstellungen</LANG>
+    <LANG ID="es-ES">Configuraciones</LANG>
+    <LANG ID="fr-FR">Paramètres</LANG>
+    <LANG ID="it-IT">Impostazioni</LANG>
+    <LANG ID="ja-JP">設定</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kToggleSound</LANG>
+    <LANG ID="en-GB">Toggle Sound</LANG>
+    <LANG ID="de-DE">Ton umschalten</LANG>
+    <LANG ID="es-ES">Alternar sonido</LANG>
+    <LANG ID="fr-FR">Activer/désactiver le son</LANG>
+    <LANG ID="it-IT">Attiva/disattiva audio</LANG>
+    <LANG ID="ja-JP">サウンドの切り替え</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChangeTheme</LANG>
+    <LANG ID="en-GB">Change Theme</LANG>
+    <LANG ID="de-DE">Thema ändern</LANG>
+    <LANG ID="es-ES">Cambiar tema</LANG>
+    <LANG ID="fr-FR">Changer de thème</LANG>
+    <LANG ID="it-IT">Cambia tema</LANG>
+    <LANG ID="ja-JP">テーマの変更</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnterSearchKeywords</LANG>
+    <LANG ID="en-GB">HomeLabOSK: Type some Keywords then press Enter</LANG>
+    <LANG ID="de-DE">HomeLabOSK: Gib einige Schlüsselwörter ein und drücke Enter</LANG>
+    <LANG ID="es-ES">HomeLabOSK: Escribe algunas palabras clave y presiona Enter</LANG>
+    <LANG ID="fr-FR">HomeLabOSK: Tapez des mots-clés et appuyez sur Entrée</LANG>
+    <LANG ID="it-IT">HomeLabOSK: Digita alcune parole chiave e premi Invio</LANG>
+    <LANG ID="ja-JP">HomeLabOSK: キーワードを入力してエンターを押してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnterURL</LANG>
+    <LANG ID="en-GB">HomeLabOSK: Type a URL then press Enter</LANG>
+    <LANG ID="de-DE">HomeLabOSK: Gib eine URL ein und drücke Enter</LANG>
+    <LANG ID="es-ES">HomeLabOSK: Escribe una URL y presiona Enter</LANG>
+    <LANG ID="fr-FR">HomeLabOSK: Tapez une URL et appuyez sur Entrée</LANG>
+    <LANG ID="it-IT">HomeLabOSK: Digita un URL e premi Invio</LANG>
+    <LANG ID="ja-JP">HomeLabOSK: URLを入力してエンターを押してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnterCommand</LANG>
+    <LANG ID="en-GB">HomeLabOSK: Type a Console Command then press Enter</LANG>
+    <LANG ID="de-DE">HomeLabOSK: Gib einen Konsolenbefehl ein und drücke Enter</LANG>
+    <LANG ID="es-ES">HomeLabOSK: Escribe un comando de consola y presiona Enter</LANG>
+    <LANG ID="fr-FR">HomeLabOSK: Tapez une commande de console et appuyez sur Entrée</LANG>
+    <LANG ID="it-IT">HomeLabOSK: Digita un comando della console e premi Invio</LANG>
+    <LANG ID="ja-JP">HomeLabOSK: コンソールコマンドを入力してエンターを押してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kWebBrowser</LANG>
+    <LANG ID="en-GB">PS3 Web Browser</LANG>
+    <LANG ID="de-DE">PS3-Webbrowser</LANG>
+    <LANG ID="es-ES">Navegador web de PS3</LANG>
+    <LANG ID="fr-FR">Navigateur Web PS3</LANG>
+    <LANG ID="it-IT">Browser Web PS3</LANG>
+    <LANG ID="ja-JP">PS3ウェブブラウザ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSystemInfo</LANG>
+    <LANG ID="en-GB">About</LANG>
+    <LANG ID="de-DE">Über</LANG>
+    <LANG ID="es-ES">Acerca de</LANG>
+    <LANG ID="fr-FR">À propos</LANG>
+    <LANG ID="it-IT">Informazioni</LANG>
+    <LANG ID="ja-JP">概要</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypeHere</LANG>
+    <LANG ID="en-GB">Type here...</LANG>
+    <LANG ID="de-DE">Hier tippen...</LANG>
+    <LANG ID="es-ES">Escribe aquí...</LANG>
+    <LANG ID="fr-FR">Tapez ici...</LANG>
+    <LANG ID="it-IT">Scrivi qui...</LANG>
+    <LANG ID="ja-JP">ここに入力...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDelete</LANG>
+    <LANG ID="en-GB">Delete</LANG>
+    <LANG ID="de-DE">Löschen</LANG>
+    <LANG ID="es-ES">Eliminar</LANG>
+    <LANG ID="fr-FR">Supprimer</LANG>
+    <LANG ID="it-IT">Cancella</LANG>
+    <LANG ID="ja-JP">削除</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kClear</LANG>
+    <LANG ID="en-GB">Clear</LANG>
+    <LANG ID="de-DE">Löschen</LANG>
+    <LANG ID="es-ES">Borrar</LANG>
+    <LANG ID="fr-FR">Effacer</LANG>
+    <LANG ID="it-IT">Pulisci</LANG>
+    <LANG ID="ja-JP">クリア</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnter</LANG>
+    <LANG ID="en-GB">Enter</LANG>
+    <LANG ID="de-DE">Eingabe</LANG>
+    <LANG ID="es-ES">Entrar</LANG>
+    <LANG ID="fr-FR">Entrée</LANG>
+    <LANG ID="it-IT">Invio</LANG>
+    <LANG ID="ja-JP">エンター</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShift</LANG>
+    <LANG ID="en-GB">Shift</LANG>
+    <LANG ID="de-DE">Umschalt</LANG>
+    <LANG ID="es-ES">Mayús</LANG>
+    <LANG ID="fr-FR">Maj</LANG>
+    <LANG ID="it-IT">Maiusc</LANG>
+    <LANG ID="ja-JP">シフト</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSpace</LANG>
+    <LANG ID="en-GB">Space</LANG>
+    <LANG ID="de-DE">Leerzeichen</LANG>
+    <LANG ID="es-ES">Espacio</LANG>
+    <LANG ID="fr-FR">Espace</LANG>
+    <LANG ID="it-IT">Spazio</LANG>
+    <LANG ID="ja-JP">スペース</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCapsLock</LANG>
+    <LANG ID="en-GB">Caps</LANG>
+    <LANG ID="de-DE">Feststelltaste</LANG>
+    <LANG ID="es-ES">Bloq Mayús</LANG>
+    <LANG ID="fr-FR">Verr Maj</LANG>
+    <LANG ID="it-IT">Bloc Maiusc</LANG>
+    <LANG ID="ja-JP">キャプス</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kToggleCharSet</LANG>
+    <LANG ID="en-GB">Toggle</LANG>
+    <LANG ID="de-DE">Umschalten</LANG>
+    <LANG ID="es-ES">Alternar</LANG>
+    <LANG ID="fr-FR">Basculer</LANG>
+    <LANG ID="it-IT">Attiva/Disattiva</LANG>
+    <LANG ID="ja-JP">トグル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetLowercase</LANG>
+    <LANG ID="en-GB">lowercase</LANG>
+    <LANG ID="de-DE">Kleinbuchstaben</LANG>
+    <LANG ID="es-ES">minúsculas</LANG>
+    <LANG ID="fr-FR">minuscules</LANG>
+    <LANG ID="it-IT">minuscole</LANG>
+    <LANG ID="ja-JP">小文字</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetUppercase</LANG>
+    <LANG ID="en-GB">uppercase</LANG>
+    <LANG ID="de-DE">Großbuchstaben</LANG>
+    <LANG ID="es-ES">mayúsculas</LANG>
+    <LANG ID="fr-FR">majuscules</LANG>
+    <LANG ID="it-IT">maiuscole</LANG>
+    <LANG ID="ja-JP">大文字</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetCircledLowercase</LANG>
+    <LANG ID="en-GB">circled lowercase</LANG>
+    <LANG ID="de-DE">eingekreiste Kleinbuchstaben</LANG>
+    <LANG ID="es-ES">minúsculas rodeadas</LANG>
+    <LANG ID="fr-FR">minuscules entourées</LANG>
+    <LANG ID="it-IT">minuscole cerchiate</LANG>
+    <LANG ID="ja-JP">丸で囲まれた小文字</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetCircledUppercase</LANG>
+    <LANG ID="en-GB">circled uppercase</LANG>
+    <LANG ID="de-DE">eingekreiste Großbuchstaben</LANG>
+    <LANG ID="es-ES">mayúsculas rodeadas</LANG>
+    <LANG ID="fr-FR">majuscules entourées</LANG>
+    <LANG ID="it-IT">maiuscole cerchiate</LANG>
+    <LANG ID="ja-JP">丸で囲まれた大文字</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetLocalized</LANG>
+    <LANG ID="en-GB">localized</LANG>
+    <LANG ID="de-DE">lokalisiert</LANG>
+    <LANG ID="es-ES">localizado</LANG>
+    <LANG ID="fr-FR">localisé</LANG>
+    <LANG ID="it-IT">localizzato</LANG>
+    <LANG ID="ja-JP">ローカライズ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetSymbols</LANG>
+    <LANG ID="en-GB">symbols</LANG>
+    <LANG ID="de-DE">Symbole</LANG>
+    <LANG ID="es-ES">símbolos</LANG>
+    <LANG ID="fr-FR">symboles</LANG>
+    <LANG ID="it-IT">simboli</LANG>
+    <LANG ID="ja-JP">シンボル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetArrowsSymbols</LANG>
+    <LANG ID="en-GB">arrows + symbols</LANG>
+    <LANG ID="de-DE">Pfeile + Symbole</LANG>
+    <LANG ID="es-ES">flechas y símbolos</LANG>
+    <LANG ID="fr-FR">flèches et symboles</LANG>
+    <LANG ID="it-IT">frecce e simboli</LANG>
+    <LANG ID="ja-JP">矢印とシンボル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCharSetReaper</LANG>
+    <LANG ID="en-GB">Reaper</LANG>
+    <LANG ID="de-DE">Reaper</LANG>
+    <LANG ID="-lines">Reaper</LANG>
+    <LANG ID="fr-FR">Reaper</LANG>
+    <LANG ID="it-IT">Reaper</LANG>
+    <LANG ID="ja-JP">リーパー</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kApplyNow</LANG>
+    <LANG ID="en-GB">Apply Now</LANG>
+    <LANG ID="de-DE">Jetzt anwenden</LANG>
+    <LANG ID="es-ES">Aplicar ahora</LANG>
+    <LANG ID="fr-FR">Appliquer maintenant</LANG>
+    <LANG ID="it-IT">Applica ora</LANG>
+    <LANG ID="ja-JP">今すぐ適用</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kJumpHere</LANG>
+    <LANG ID="en-GB">Go Here</LANG>
+    <LANG ID="de-DE">Hierher gehen</LANG>
+    <LANG ID="es-ES">Ir aquí</LANG>
+    <LANG ID="fr-FR">Aller ici</LANG>
+    <LANG ID="it-IT">Vai qui</LANG>
+    <LANG ID="ja-JP">ここへ行く</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSavePopup</LANG>
+    <LANG ID="en-GB">Save to Inventory</LANG>
+    <LANG ID="de-DE">Im Inventar speichern</LANG>
+    <LANG ID="es-ES">Guardar en el inventario</LANG>
+    <LANG ID="fr-FR">Enregistrer dans l'inventaire</LANG>
+    <LANG ID="it-IT">Salva nell'inventario</LANG>
+    <LANG ID="ja-JP">インベントリに保存</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRemovePopup</LANG>
+    <LANG ID="en-GB">Remove from Inventory</LANG>
+    <LANG ID="de-DE">Aus dem Inventar entfernen</LANG>
+    <LANG ID="es-ES">Eliminar del inventario</LANG>
+    <LANG ID="fr-FR">Supprimer de l'inventaire</LANG>
+    <LANG ID="it-IT">Rimuovi dall'inventario</LANG>
+    <LANG ID="ja-JP">インベントリから削除</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAdvanced</LANG>
+    <LANG ID="en-GB">Advanced</LANG>
+    <LANG ID="de-DE">Erweitert</LANG>
+    <LANG ID="es-ES">Avanzado</LANG>
+    <LANG ID="fr-FR">Avancé</LANG>
+    <LANG ID="it-IT">Avanzato</LANG>
+    <LANG ID="ja-JP">高度</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBasic</LANG>
+    <LANG ID="en-GB">Basic</LANG>
+    <LANG ID="de-DE">Grundlegend</LANG>
+    <LANG ID="es-ES">Básico</LANG>
+    <LANG ID="fr-FR">Basique</LANG>
+    <LANG ID="it-IT">Base</LANG>
+    <LANG ID="ja-JP">基本</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPreview</LANG>
+    <LANG ID="en-GB">Preview</LANG>
+    <LANG ID="de-DE">Vorschau</LANG>
+    <LANG ID="es-ES">Vista previa</LANG>
+    <LANG ID="fr-FR">Aperçu</LANG>
+    <LANG ID="it-IT">Anteprima</LANG>
+    <LANG ID="ja-JP">プレビュー</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDumpPopup</LANG>
+    <LANG ID="en-GB">Dump</LANG>
+    <LANG ID="de-DE">Abladen</LANG>
+   5285
+    <LANG ID="es-ES">Descargar</LANG>
+    <LANG ID="fr-FR">Vider</LANG>
+    <LANG ID="it-IT">Scarica</LANG>
+    <LANG ID="ja-JP">ダンプ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypeDefaultItem</LANG>
+    <LANG ID="en-GB">Default Item</LANG>
+    <LANG ID="de-DE">Standardelement</LANG>
+    <LANG ID="es-ES">Elemento predeterminado</LANG>
+    <LANG ID="fr-FR">Élément par défaut</LANG>
+    <LANG ID="it-IT">Elemento predefinito</LANG>
+    <LANG ID="ja-JP">デフォルトアイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypePremiumItem</LANG>
+    <LANG ID="en-GB">Premium Item</LANG>
+    <LANG ID="de-DE">Premium-Element</LANG>
+    <LANG ID="es-ES">Elemento premium</LANG>
+    <LANG ID="fr-FR">Élément premium</LANG>
+    <LANG ID="it-IT">Elemento premium</LANG>
+    <LANG ID="ja-JP">プレミアムアイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypeAutomaticReward</LANG>
+    <LANG ID="en-GB">Automatic Reward</LANG>
+    <LANG ID="de-DE">Automatische Belohnung</LANG>
+    <LANG ID="es-ES">Recompensa automática</LANG>
+    <LANG ID="fr-FR">Récompense automatique</LANG>
+    <LANG ID="it-IT">Ricompensa automatica</LANG>
+    <LANG ID="ja-JP">自動報酬</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypeLUAReward</LANG>
+    <LANG ID="en-GB">LUA Reward</LANG>
+    <LANG ID="de-DE">LUA-Belohnung</LANG>
+    <LANG ID="es-ES">Recompensa LUA</LANG>
+    <LANG ID="fr-FR">Récompense LUA</LANG>
+    <LANG ID="it-IT">Ricompensa LUA</LANG>
+    <LANG ID="ja-JP">LUA報酬</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypeCustom</LANG>
+    <LANG ID="en-GB">Custom</LANG>
+    <LANG ID="de-DE">Benutzerdefiniert</LANG>
+    <LANG ID="es-ES">Personalizado</LANG>
+    <LANG ID="fr-FR">Personnalisé</LANG>
+    <LANG ID="it-IT">Personalizzato</LANG>
+    <LANG ID="ja-JP">カスタム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypeUnknown</LANG>
+    <LANG ID="en-GB">Unknown Type</LANG>
+    <LANG ID="de-DE">Unbekannter Typ</LANG>
+    <LANG ID="es-ES">Tipo desconocido</LANG>
+    <LANG ID="fr-FR">Type inconnu</LANG>
+    <LANG ID="it-IT">Tipo sconosciuto</LANG>
+    <LANG ID="ja-JP">不明なタイプ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLoading</LANG>
+    <LANG ID="en-GB">Loading...</LANG>
+    <LANG ID="de-DE">Laden...</LANG>
+    <LANG ID="es-ES">Cargando...</LANG>
+    <LANG ID="fr-FR">Chargement...</LANG>
+    <LANG ID="it-IT">Caricamento...</LANG>
+    <LANG ID="ja-JP">読み込み中...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kUUIDLabel</LANG>
+    <LANG ID="en-GB">UUID: </LANG>
+    <LANG ID="de-DE">UUID: </LANG>
+    <LANG ID="es-ES">UUID: </LANG>
+    <LANG ID="fr-FR">UUID : </LANG>
+    <LANG ID="it-IT">UUID: </LANG>
+    <LANG ID="ja-JP">UUID: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kNameLabel</LANG>
+    <LANG ID="en-GB">Name: </LANG>
+    <LANG ID="de-DE">Name: </LANG>
+    <LANG ID="es-ES">Nombre: </LANG>
+    <LANG ID="fr-FR">Nom : </LANG>
+    <LANG ID="it-IT">Nome: </LANG>
+    <LANG ID="ja-JP">名前: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDescriptionLabel</LANG>
+    <LANG ID="en-GB">Description: </LANG>
+    <LANG ID="de-DE">Beschreibung: </LANG>
+    <LANG ID="es-ES">Descripción: </LANG>
+    <LANG ID="fr-FR">Description : </LANG>
+    <LANG ID="it-IT">Descrizione: </LANG>
+    <LANG ID="ja-JP">説明: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCategoryLabel</LANG>
+    <LANG ID="en-GB">Category: </LANG>
+    <LANG ID="de-DE">Kategorie: </LANG>
+    <LANG ID="es-ES">Categoría: </LANG>
+    <LANG ID="fr-FR">Catégorie : </LANG>
+    <LANG ID="it-IT">Categoria: </LANG>
+    <LANG ID="ja-JP">カテゴリ: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTypeLabel</LANG>
+    <LANG ID="en-GB">Type: </LANG>
+    <LANG ID="de-DE">Typ: </LANG>
+    <LANG ID="es-ES">Tipo: </LANG>
+    <LANG ID="fr-FR">Type : </LANG>
+    <LANG ID="it-IT">Tipo: </LANG>
+    <LANG ID="ja-JP">タイプ: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHDKVersionLabel</LANG>
+    <LANG ID="en-GB">HDK Version: </LANG>
+    <LANG ID="de-DE">HDK-Version: </LANG>
+    <LANG ID="es-ES">Versión HDK: </LANG>
+    <LANG ID="fr-FR">Version HDK : </LANG>
+    <LANG ID="it-IT">Versione HDK: </LANG>
+    <LANG ID="ja-JP">HDKバージョン: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMakerLabel</LANG>
+    <LANG ID="en-GB">Maker: </LANG>
+    <LANG ID="de-DE">Hersteller: </LANG>
+    <LANG ID="es-ES">Creador: </LANG>
+    <LANG ID="fr-FR">Fabricant : </LANG>
+    <LANG ID="it-IT">Produttore: </LANG>
+    <LANG ID="ja-JP">製作者: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAuthorLabel</LANG>
+    <LANG ID="en-GB">Author: </LANG>
+    <LANG ID="de-DE">Autor: </LANG>
+    <LANG ID="es-ES">Autor: </LANG>
+    <LANG ID="fr-FR">Auteur : </LANG>
+    <LANG ID="it-IT">Autore: </LANG>
+    <LANG ID="ja-JP">著者: </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kUnknown</LANG>
+    <LANG ID="en-GB">Unknown</LANG>
+    <LANG ID="de-DE">Unbekannt</LANG>
+    <LANG ID="es-ES">Desconocido</LANG>
+    <LANG ID="fr-FR">Inconnu</LANG>
+    <LANG ID="it-IT">Sconosciuto</LANG>
+    <LANG ID="ja-JP">不明</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLoadAll</LANG>
+    <LANG ID="en-GB">All My Items</LANG>
+    <LANG ID="de-DE">Alle meine Gegenstände</LANG>
+    <LANG ID="es-ES">Todos mis elementos</LANG>
+    <LANG ID="fr-FR">Tous mes objets</LANG>
+    <LANG ID="it-IT">Tutti i miei oggetti</LANG>
+    <LANG ID="ja-JP">すべての私のアイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMyPortable</LANG>
+    <LANG ID="en-GB">My Portable Items</LANG>
+    <LANG ID="de-DE">Meine tragbaren Gegenstände</LANG>
+    <LANG ID="es-ES">Mis elementos portátiles</LANG>
+    <LANG ID="fr-FR">Mes objets portables</LANG>
+    <LANG ID="it-IT">I miei oggetti portatili</LANG>
+    <LANG ID="ja-JP">私のポータブルアイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMyFurniture</LANG>
+    <LANG ID="en-GB">My Furniture Items</LANG>
+    <LANG ID="de-DE">Meine Möbelgegenstände</LANG>
+    <LANG ID="es-ES">Mis elementos de mobiliario</LANG>
+    <LANG ID="fr-FR">Mes objets de mobilier</LANG>
+    <LANG ID="it-IT">I miei mobili</LANG>
+    <LANG ID="ja-JP">私の家具アイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMyMale</LANG>
+    <LANG ID="en-GB">My Male Items</LANG>
+    <LANG ID="de-DE">Meine männlichen Gegenstände</LANG>
+    <LANG ID="es-ES">Mis elementos masculinos</LANG>
+    <LANG ID="fr-FR">Mes objets masculins</LANG>
+    <LANG ID="it-IT">I miei oggetti maschili</LANG>
+    <LANG ID="ja-JP">私の男性アイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMyFemale</LANG>
+    <LANG ID="en-GB">My Female Items</LANG>
+    <LANG ID="de-DE">Meine weiblichen Gegenstände</LANG>
+    <LANG ID="es-ES">Mis elementos femeninos</LANG>
+    <LANG ID="fr-FR">Mes objets féminins</LANG>
+    <LANG ID="it-IT">I miei oggetti femminili</LANG>
+    <LANG ID="ja-JP">私の女性アイテム</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMyApartments</LANG>
+    <LANG ID="en-GB">My Apartments</LANG>
+    <LANG ID="de-DE">Meine Wohnungen</LANG>
+    <LANG ID="es-ES">Mis apartamentos</LANG>
+    <LANG ID="fr-FR">Mes appartements</LANG>
+    <LANG ID="it-IT">I miei appartamenti</LANG>
+    <LANG ID="ja-JP">私のアパート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPopCmds</LANG>
+    <LANG ID="en-GB">RTRC Mini</LANG>
+    <LANG ID="de-DE">RTRC Mini</LANG>
+    <LANG ID="es-ES">RTRC Mini</LANG>
+    <LANG ID="fr-FR">RTRC Mini</LANG>
+    <LANG ID="it-IT">RTRC Mini</LANG>
+    <LANG ID="ja-JP">RTRC Mini</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAvtPresets</LANG>
+    <LANG ID="en-GB">Avatar Presets</LANG>
+    <LANG ID="de-DE">Avatar-Voreinstellungen</LANG>
+    <LANG ID="es-ES">Preajustes de avatar</LANG>
+    <LANG ID="fr-FR">Préréglages d'avatar</LANG>
+    <LANG ID="it-IT">Preimpostazioni avatar</LANG>
+    <LANG ID="ja-JP">アバタープリセット</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCmdConsole</LANG>
+    <LANG ID="en-GB">Command Console</LANG>
+    <LANG ID="de-DE">Befehlskonsole</LANG>
+    <LANG ID="es-ES">Consola de comandos</LANG>
+    <LANG ID="fr-FR">Console de commandes</LANG>
+    <LANG ID="it-IT">Console dei comandi</LANG>
+    <LANG ID="ja-JP">コマンドコンソール</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDefApt</LANG>
+    <LANG ID="en-GB">Default Apartment</LANG>
+    <LANG ID="de-DE">Standardwohnung</LANG>
+    <LANG ID="es-ES">Apartamento predeterminado</LANG>
+    <LANG ID="fr-FR">Appartement par défaut</LANG>
+    <LANG ID="it-IT">Appartamento predefinito</LANG>
+    <LANG ID="ja-JP">デフォルトアパート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMapBasicApt</LANG>
+    <LANG ID="en-GB">Map BasicApartment</LANG>
+    <LANG ID="de-DE">Karte Basiswohnung</LANG>
+    <LANG ID="es-ES">Mapa Apartamento Básico</LANG>
+    <LANG ID="fr-FR">Carte Appartement de Base</LANG>
+    <LANG ID="it-IT">Mappa Appartamento Base</LANG>
+    <LANG ID="ja-JP">マップ ベーシックアパート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRelScene</LANG>
+    <LANG ID="en-GB">Reload Scene</LANG>
+    <LANG ID="de-DE">Szene neu laden</LANG>
+    <LANG ID="es-ES">Recargar escena</LANG>
+    <LANG ID="fr-FR">Recharger la scène</LANG>
+    <LANG ID="it-IT">Ricarica scena</LANG>
+    <LANG ID="ja-JP">シーンをリロード</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTogDbgCam</LANG>
+    <LANG ID="en-GB">Toggle Debug Camera</LANG>
+    <LANG ID="de-DE">Debug-Kamera umschalten</LANG>
+    <LANG ID="es-ES">Alternar cámara de depuración</LANG>
+    <LANG ID="fr-FR">Activer/désactiver la caméra de débogage</LANG>
+    <LANG ID="it-IT">Attiva/disattiva fotocamera di debug</LANG>
+    <LANG ID="ja-JP">デバッグカメラの切り替え</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTelCam</LANG>
+    <LANG ID="en-GB">Teleport to Camera</LANG>
+    <LANG ID="de-DE">Zur Kamera teleportieren</LANG>
+    <LANG ID="es-ES">Teletransportarse a la cámara</LANG>
+    <LANG ID="fr-FR">Téléporter à la caméra</LANG>
+    <LANG ID="it-IT">Teletrasporto alla fotocamera</LANG>
+    <LANG ID="ja-JP">カメラにテレポート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTogCmdCon</LANG>
+    <LANG ID="en-GB">Toggle Command Console</LANG>
+    <LANG ID="de-DE">Befehlskonsole umschalten</LANG>
+    <LANG ID="es-ES">Alternar consola de comandos</LANG>
+    <LANG ID="fr-FR">Activer/désactiver la console de commandes</LANG>
+    <LANG ID="it-IT">Attiva/disattiva console dei comandi</LANG>
+    <LANG ID="ja-JP">コマンドコンソールの切り替え</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kClrCmdCon</LANG>
+    <LANG ID="en-GB">Clear Command Console</LANG>
+    <LANG ID="de-DE">Befehlskonsole löschen</LANG>
+    <LANG ID="es-ES">Limpiar consola de comandos</LANG>
+    <LANG ID="fr-FR">Effacer la console de commandes</LANG>
+    <LANG ID="it-IT">Pulisci console dei comandi</LANG>
+    <LANG ID="ja-JP">コマンドコンソールをクリア</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kOpenWard</LANG>
+    <LANG ID="en-GB">Open Wardrobe</LANG>
+    <LANG ID="de-DE">Kleiderschrank öffnen</LANG>
+    <LANG ID="es-ES">Abrir armario</LANG>
+    <LANG ID="fr-FR">Ouvrir la garde-robe</LANG>
+    <LANG ID="it-IT">Apri guardaroba</LANG>
+    <LANG ID="ja-JP">ワードローブを開く</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kOpenDbgCat</LANG>
+    <LANG ID="en-GB">Open Debug Catalogue</LANG>
+    <LANG ID="de-DE">Debug-Katalog öffnen</LANG>
+    <LANG ID="es-ES">Abrir catálogo de depuración</LANG>
+    <LANG ID="fr-FR">Ouvrir le catalogue de débogage</LANG>
+    <LANG ID="it-IT">Apri catalogo di debug</LANG>
+    <LANG ID="ja-JP">デバッグカタログを開く</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kOpenPanic</LANG>
+    <LANG ID="en-GB">Open Panic Menu</LANG>
+    <LANG ID="de-DE">Panikmenü öffnen</LANG>
+    <LANG ID="es-ES">Abrir menú de pánico</LANG>
+    <LANG ID="fr-FR">Ouvrir le menu de panique</LANG>
+    <LANG ID="it-IT">Apri menu di panico</LANG>
+    <LANG ID="ja-JP">パニックメニューを開く</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRefLocObj</LANG>
+    <LANG ID="en-GB">Refresh Local Objects</LANG>
+    <LANG ID="de-DE">Lokale Objekte aktualisieren</LANG>
+    <LANG ID="es-ES">Actualizar objetos locales</LANG>
+    <LANG ID="fr-FR">Actualiser les objets locaux</LANG>
+    <LANG ID="it-IT">Aggiorna oggetti locali</LANG>
+    <LANG ID="ja-JP">ローカルオブジェクトを更新</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRemPort</LANG>
+    <LANG ID="en-GB">Remove Portable</LANG>
+    <LANG ID="de-DE">Tragbares entfernen</LANG>
+    <LANG ID="es-ES">Eliminar portátil</LANG>
+    <LANG ID="fr-FR">Supprimer portable</LANG>
+    <LANG ID="it-IT">Rimuovi portatile</LANG>
+    <LANG ID="ja-JP">ポータブルを削除</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShot720p</LANG>
+    <LANG ID="en-GB">Screenshot 720p (PNG)</LANG>
+    <LANG ID="de-DE">Screenshot 720p (PNG)</LANG>
+    <LANG ID="es-ES">Captura de pantalla 720p (PNG)</LANG>
+    <LANG ID="fr-FR">Capture d'écran 720p (PNG)</LANG>
+    <LANG ID="it-IT">Schermata 720p (PNG)</LANG>
+    <LANG ID="ja-JP">スクリーンショット 720p (PNG)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShot1440p</LANG>
+    <LANG ID="en-GB">Screenshot 1440p (TGA)</LANG>
+    <LANG ID="de-DE">Screenshot 1440p (TGA)</LANG>
+    <LANG ID="es-ES">Captura de pantalla 1440p (TGA)</LANG>
+    <LANG ID="fr-FR">Capture d'écran 1440p (TGA)</LANG>
+    <LANG ID="it-IT">Schermata 1440p (TGA)</LANG>
+    <LANG ID="ja-JP">スクリーンショット 1440p (TGA)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnDevNav</LANG>
+    <LANG ID="en-GB">Enable DevNav</LANG>
+    <LANG ID="de-DE">DevNav aktivieren</LANG>
+    <LANG ID="es-ES">Habilitar DevNav</LANG>
+    <LANG ID="fr-FR">Activer DevNav</LANG>
+    <LANG ID="it-IT">Abilita DevNav</LANG>
+    <LANG ID="ja-JP">DevNavを有効にする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTogAdmin</LANG>
+    <LANG ID="en-GB">Toggle Admin Mode</LANG>
+    <LANG ID="de-DE">Admin-Modus umschalten</LANG>
+    <LANG ID="es-ES">Alternar modo administrador</LANG>
+    <LANG ID="fr-FR">Activer/désactiver le mode admin</LANG>
+    <LANG ID="it-IT">Attiva/disattiva modalità admin</LANG>
+    <LANG ID="ja-JP">管理者モードの切り替え</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kInfChat</LANG>
+    <LANG ID="en-GB">Infinite Chat Range</LANG>
+    <LANG ID="de-DE">Unbegrenzte Chat-Reichweite</LANG>
+    <LANG ID="es-ES">Rango de chat infinito</LANG>
+    <LANG ID="fr-FR">Portée de chat infinie</LANG>
+    <LANG ID="it-IT">Portata chat infinita</LANG>
+    <LANG ID="ja-JP">無限チャット範囲</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDisProfFilt</LANG>
+    <LANG ID="en-GB">Disable Profanity Filter</LANG>
+    <LANG ID="de-DE">Profanitätfilter deaktivieren</LANG>
+    <LANG ID="es-ES">Desactivar filtro de groserías</LANG>
+    <LANG ID="fr-FR">Désactiver le filtre de grossièretés</LANG>
+    <LANG ID="it-IT">Disattiva filtro volgarità</LANG>
+    <LANG ID="ja-JP">不適切な言葉フィルターを無効にする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLogOff</LANG>
+    <LANG ID="en-GB">Log off Game</LANG>
+    <LANG ID="de-DE">Spiel abmelden</LANG>
+    <LANG ID="es-ES">Cerrar sesión del juego</LANG>
+    <LANG ID="fr-FR">Se déconnecter du jeu</LANG>
+    <LANG ID="it-IT">Disconnetti dal gioco</LANG>
+    <LANG ID="ja-JP">ゲームからログオフ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShutHome</LANG>
+    <LANG ID="en-GB">Shutdown Home</LANG>
+    <LANG ID="de-DE">Home herunterfahren</LANG>
+    <LANG ID="es-ES">Apagar Home</LANG>
+    <LANG ID="fr-FR">Éteindre Home</LANG>
+    <LANG ID="it-IT">Spegni Home</LANG>
+    <LANG ID="ja-JP">Homeをシャットダウン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLoadMale</LANG>
+    <LANG ID="en-GB">Load Male Avatar</LANG>
+    <LANG ID="de-DE">Männlichen Avatar laden</LANG>
+    <LANG ID="es-ES">Cargar avatar masculino</LANG>
+    <LANG ID="fr-FR">Charger un avatar masculin</LANG>
+    <LANG ID="it-IT">Carica avatar maschile</LANG>
+    <LANG ID="ja-JP">男性アバターをロード</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLoadFemale</LANG>
+    <LANG ID="en-GB">Load Female Avatar</LANG>
+    <LANG ID="de-DE">Weiblichen Avatar laden</LANG>
+    <LANG ID="es-ES">Cargar avatar femenino</LANG>
+    <LANG ID="fr-FR">Charger un avatar féminin</LANG>
+    <LANG ID="it-IT">Carica avatar femminile</LANG>
+    <LANG ID="ja-JP">女性アバターをロード</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDisAvtCol</LANG>
+    <LANG ID="en-GB">Disable Avatar Collision (aka NoClip)</LANG>
+    <LANG ID="de-DE">Avatar-Kollision deaktivieren (NoClip)</LANG>
+    <LANG ID="es-ES">Desactivar colisión de avatar (NoClip)</LANG>
+    <LANG ID="fr-FR">Désactiver la collision d'avatar (NoClip)</LANG>
+    <LANG ID="it-IT">Disattiva collisione avatar (NoClip)</LANG>
+    <LANG ID="ja-JP">アバターの衝突を無効にする（NoClip）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnAvtAnim</LANG>
+    <LANG ID="en-GB">Enable Avatar Animations</LANG>
+    <LANG ID="de-DE">Avatar-Animationen aktivieren</LANG>
+    <LANG ID="es-ES">Habilitar animaciones de avatar</LANG>
+    <LANG ID="fr-FR">Activer les animations d'avatar</LANG>
+    <LANG ID="it-IT">Abilita animazioni avatar</LANG>
+    <LANG ID="ja-JP">アバターのアニメーションを有効にする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kWireframe</LANG>
+    <LANG ID="en-GB">Wireframe Effect</LANG>
+    <LANG ID="de-DE">Wireframe-Effekt</LANG>
+    <LANG ID="es-ES">Efecto de estructura alámbrica</LANG>
+    <LANG ID="fr-FR">Effet de fil de fer</LANG>
+    <LANG ID="it-IT">Effetto wireframe</LANG>
+    <LANG ID="ja-JP">ワイヤーフレーム効果</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnShadows</LANG>
+    <LANG ID="en-GB">Enable Shadows</LANG>
+    <LANG ID="de-DE">Schatten aktivieren</LANG>
+    <LANG ID="es-ES">Habilitar sombras</LANG>
+    <LANG ID="fr-FR">Activer les ombres</LANG>
+    <LANG ID="it-IT">Abilita ombre</LANG>
+    <LANG ID="ja-JP">影を有効にする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kLighting</LANG>
+    <LANG ID="en-GB">Lighting (Some Scenes)</LANG>
+    <LANG ID="de-DE">Beleuchtung (einige Szenen)</LANG>
+    <LANG ID="es-ES">Iluminación (algunas escenas)</LANG>
+    <LANG ID="fr-FR">Éclairage (certaines scènes)</LANG>
+    <LANG ID="it-IT">Illuminazione (alcune scene)</LANG>
+    <LANG ID="ja-JP">照明（一部のシーン）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRenTransp</LANG>
+    <LANG ID="en-GB">Render Transparencies (Hair, Waiter etc)</LANG>
+    <LANG ID="de-DE">Transparenzen rendern (Haare, Kellner usw.)</LANG>
+    <LANG ID="es-ES">Renderizar transparencias (pelo, camarero, etc.)</LANG>
+    <LANG ID="fr-FR">Rendre les transparences (cheveux, serveur, etc.)</LANG>
+    <LANG ID="it-IT">Renderizza trasparenze (capelli, cameriere, ecc.)</LANG>
+    <LANG ID="ja-JP">透明度をレンダリング（髪、ウェイターなど）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kGlowEn</LANG>
+    <LANG ID="en-GB">Glow Effect Enabled</LANG>
+    <LANG ID="de-DE">Leuchteffekt aktiviert</LANG>
+    <LANG ID="es-ES">Efecto de brillo habilitado</LANG>
+    <LANG ID="fr-FR">Effet de lueur activé</LANG>
+    <LANG ID="it-IT">Effetto bagliore abilitato</LANG>
+    <LANG ID="ja-JP">グロー効果が有効</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSunEn</LANG>
+    <LANG ID="en-GB">Sun Effect Enabled</LANG>
+    <LANG ID="de-DE">Sonneneffekt aktiviert</LANG>
+    <LANG ID="es-ES">Efecto de sol habilitado</LANG>
+    <LANG ID="fr-FR">Effet de soleil activé</LANG>
+    <LANG ID="it-IT">Effetto sole abilitato</LANG>
+    <LANG ID="ja-JP">太陽効果が有効</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnShowDAO</LANG>
+    <LANG ID="en-GB">Enable showDAO Overlay</LANG>
+    <LANG ID="de-DE">showDAO-Overlay aktivieren</LANG>
+    <LANG ID="es-ES">Habilitar superposición showDAO</LANG>
+    <LANG ID="fr-FR">Activer l'overlay showDAO</LANG>
+    <LANG ID="it-IT">Abilita sovrapposizione showDAO</LANG>
+    <LANG ID="ja-JP">showDAOオーバーレイを有効にする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRenAvtCol</LANG>
+    <LANG ID="en-GB">Render Avatar Collision Shape</LANG>
+    <LANG ID="de-DE">Avatar-Kollisionsform rendern</LANG>
+    <LANG ID="es-ES">Renderizar forma de colisión de avatar</LANG>
+    <LANG ID="fr-FR">Rendre la forme de collision d'avatar</LANG>
+    <LANG ID="it-IT">Renderizza forma di collisione avatar</LANG>
+    <LANG ID="ja-JP">アバターの衝突形状をレンダリング</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowDynLt</LANG>
+    <LANG ID="en-GB">Show Dynamic Light Paths</LANG>
+    <LANG ID="de-DE">Dynamische Lichtpfade anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar trayectorias de luz dinámica</LANG>
+    <LANG ID="fr-FR">Afficher les trajets de lumière dynamique</LANG>
+    <LANG ID="it-IT">Mostra percorsi di luce dinamica</LANG>
+    <LANG ID="ja-JP">動的ライトパスを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowLtPrb</LANG>
+    <LANG ID="en-GB">Show Light Probe Data</LANG>
+    <LANG ID="de-DE">Lichtmessdaten anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar datos de sonda de luz</LANG>
+    <LANG ID="fr-FR">Afficher les données de la sonde lumineuse</LANG>
+    <LANG ID="it-IT">Mostra dati sonda luminosa</LANG>
+    <LANG ID="ja-JP">ライトプローブデータを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowLtSamp</LANG>
+    <LANG ID="en-GB">Show Light Probe Sample Points</LANG>
+    <LANG ID="de-DE">Lichtmess-Stützpunkte anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar puntos de muestreo de sonda de luz</LANG>
+    <LANG ID="fr-FR">Afficher les points d'échantillonnage de la sonde lumineuse</LANG>
+    <LANG ID="it-IT">Mostra punti di campionamento sonda luminosa</LANG>
+    <LANG ID="ja-JP">ライトプローブサンプルポイントを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowModBnd</LANG>
+    <LANG ID="en-GB">Show Model Bounds</LANG>
+    <LANG ID="de-DE">Modellgrenzen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar límites del modelo</LANG>
+    <LANG ID="fr-FR">Afficher les limites du modèle</LANG>
+    <LANG ID="it-IT">Mostra limiti del modello</LANG>
+    <LANG ID="ja-JP">モデル境界を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowModInf</LANG>
+    <LANG ID="en-GB">Show Model Information</LANG>
+    <LANG ID="de-DE">Modellinformationen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar información del modelo</LANG>
+    <LANG ID="fr-FR">Afficher les informations du modèle</LANG>
+    <LANG ID="it-IT">Mostra informazioni del modello</LANG>
+    <LANG ID="ja-JP">モデル情報を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowAtmDbg</LANG>
+    <LANG ID="en-GB">Show Atmosphere Debug Data</LANG>
+    <LANG ID="de-DE">Atmosphären-Debug-Daten anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar datos de depuración de atmósfera</LANG>
+    <LANG ID="fr-FR">Afficher les données de débogage de l'atmosphère</LANG>
+    <LANG ID="it-IT">Mostra dati di debug dell'atmosfera</LANG>
+    <LANG ID="ja-JP">大気デバッグデータを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowPicHks</LANG>
+    <LANG ID="en-GB">Show Picture Hooks</LANG>
+    <LANG ID="de-DE">Bildhaken anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar ganchos de imagen</LANG>
+    <LANG ID="fr-FR">Afficher les crochets d'image</LANG>
+    <LANG ID="it-IT">Mostra ganci per immagini</LANG>
+    <LANG ID="ja-JP">ピクチャーフックを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowDbgClth</LANG>
+    <LANG ID="en-GB">Show Debug Clothing Limits</LANG>
+    <LANG ID="de-DE">Debug-Kleidungsgrenzen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar límites de ropa de depuración</LANG>
+    <LANG ID="fr-FR">Afficher les limites de vêtements de débogage</LANG>
+    <LANG ID="it-IT">Mostra limiti di abbigliamento di debug</LANG>
+    <LANG ID="ja-JP">デバッグ服の制限を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHideOSD</LANG>
+    <LANG ID="en-GB">Hide OSD/Popups</LANG>
+    <LANG ID="de-DE">OSD/Popups ausblenden</LANG>
+    <LANG ID="es-ES">Ocultar OSD/Popups</LANG>
+    <LANG ID="fr-FR">Masquer OSD/Popups</LANG>
+    <LANG ID="it-IT">Nascondi OSD/Popup</LANG>
+    <LANG ID="ja-JP">OSD/ポップアップを非表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowCamStk</LANG>
+    <LANG ID="en-GB">Show Camera Stack</LANG>
+    <LANG ID="de-DE">Kamerastapel anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar pila de cámaras</LANG>
+    <LANG ID="fr-FR">Afficher la pile de caméras</LANG>
+    <LANG ID="it-IT">Mostra pila di fotocamere</LANG>
+    <LANG ID="ja-JP">カメラスタックを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDispFPS</LANG>
+    <LANG ID="en-GB">Display FPS</LANG>
+    <LANG ID="de-DE">FPS anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar FPS</LANG>
+    <LANG ID="fr-FR">Afficher les FPS</LANG>
+    <LANG ID="it-IT">Mostra FPS</LANG>
+    <LANG ID="ja-JP">FPSを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDispUptime</LANG>
+    <LANG ID="en-GB">Display Uptime</LANG>
+    <LANG ID="de-DE">Betriebszeit anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar tiempo de actividad</LANG>
+    <LANG ID="fr-FR">Afficher le temps de fonctionnement</LANG>
+    <LANG ID="it-IT">Mostra tempo di attività</LANG>
+    <LANG ID="ja-JP">アップタイムを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowChanInf</LANG>
+    <LANG ID="en-GB">Show Channel Information</LANG>
+    <LANG ID="de-DE">Kanalinformationen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar información del canal</LANG>
+    <LANG ID="fr-FR">Afficher les informations du canal</LANG>
+    <LANG ID="it-IT">Mostra informazioni del canale</LANG>
+    <LANG ID="ja-JP">チャンネル情報を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowDynLtInf</LANG>
+    <LANG ID="en-GB">Show Dynamic Light Info</LANG>
+    <LANG ID="de-DE">Dynamische Lichtinformationen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar información de luz dinámica</LANG>
+    <LANG ID="fr-FR">Afficher les informations de lumière dynamique</LANG>
+    <LANG ID="it-IT">Mostra informazioni luce dinamica</LANG>
+    <LANG ID="ja-JP">動的ライト情報を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kVSyncTest</LANG>
+    <LANG ID="en-GB">Vertical Sync Test</LANG>
+    <LANG ID="de-DE">Vertikaler Sync-Test</LANG>
+    <LANG ID="es-ES">Prueba de sincronización vertical</LANG>
+    <LANG ID="fr-FR">Test de synchronisation verticale</LANG>
+    <LANG ID="it-IT">Test sincronizzazione verticale</LANG>
+    <LANG ID="ja-JP">垂直同期テスト</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowObjProf</LANG>
+    <LANG ID="en-GB">Show Object Profiler</LANG>
+    <LANG ID="de-DE">Objekt-Profiler anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar perfilador de objetos</LANG>
+    <LANG ID="fr-FR">Afficher le profileur d'objets</LANG>
+    <LANG ID="it-IT">Mostra profilatore oggetti</LANG>
+    <LANG ID="ja-JP">オブジェクトプロファイラを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowActProf</LANG>
+    <LANG ID="en-GB">Show Active Profiler</LANG>
+    <LANG ID="de-DE">Aktiven Profiler anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar perfilador activo</LANG>
+    <LANG ID="fr-FR">Afficher le profileur actif</LANG>
+    <LANG ID="it-IT">Mostra profilatore attivo</LANG>
+    <LANG ID="ja-JP">アクティブプロファイラを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnMemStats</LANG>
+    <LANG ID="en-GB">Enable Memory Stats</LANG>
+    <LANG ID="de-DE">Speicherstatistiken aktivieren</LANG>
+    <LANG ID="es-ES">Habilitar estadísticas de memoria</LANG>
+    <LANG ID="fr-FR">Activer les statistiques de mémoire</LANG>
+    <LANG ID="it-IT">Abilita statistiche memoria</LANG>
+    <LANG ID="ja-JP">メモリ統計を有効にする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowNetStats</LANG>
+    <LANG ID="en-GB">Show Network Statistics</LANG>
+    <LANG ID="de-DE">Netzwerkstatistiken anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar estadísticas de red</LANG>
+    <LANG ID="fr-FR">Afficher les statistiques réseau</LANG>
+    <LANG ID="it-IT">Mostra statistiche rete</LANG>
+    <LANG ID="ja-JP">ネットワーク統計を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowPeers</LANG>
+    <LANG ID="en-GB">Show Connected Peers</LANG>
+    <LANG ID="de-DE">Verbundene Peers anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar pares conectados</LANG>
+    <LANG ID="fr-FR">Afficher les pairs connectés</LANG>
+    <LANG ID="it-IT">Mostra peer connessi</LANG>
+    <LANG ID="ja-JP">接続されたピアを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowVMView</LANG>
+    <LANG ID="en-GB">Show Virtual Memory View</LANG>
+    <LANG ID="de-DE">Virtuelle Speicheransicht anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar vista de memoria virtual</LANG>
+    <LANG ID="fr-FR">Afficher la vue de la mémoire virtuelle</LANG>
+    <LANG ID="it-IT">Mostra vista memoria virtuale</LANG>
+    <LANG ID="ja-JP">仮想メモリビューを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowPartInf</LANG>
+    <LANG ID="en-GB">Show Particle Info</LANG>
+    <LANG ID="de-DE">Partikelinformationen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar información de partículas</LANG>
+    <LANG ID="fr-FR">Afficher les informations sur les particules</LANG>
+    <LANG ID="it-IT">Mostra informazioni particelle</LANG>
+    <LANG ID="ja-JP">パーティクル情報を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowScrStats</LANG>
+    <LANG ID="en-GB">Show Screen Statistics</LANG>
+    <LANG ID="de-DE">Bildschirmstatistiken anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar estadísticas de pantalla</LANG>
+    <LANG ID="fr-FR">Afficher les statistiques d'écran</LANG>
+    <LANG ID="it-IT">Mostra statistiche schermo</LANG>
+    <LANG ID="ja-JP">スクリーン統計を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowVidStats</LANG>
+    <LANG ID="en-GB">Show Video Statistics</LANG>
+    <LANG ID="de-DE">Videostatistiken anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar estadísticas de video</LANG>
+    <LANG ID="fr-FR">Afficher les statistiques vidéo</LANG>
+    <LANG ID="it-IT">Mostra statistiche video</LANG>
+    <LANG ID="ja-JP">ビデオ統計を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowPPUOver</LANG>
+    <LANG ID="en-GB">Show PPU Overview</LANG>
+    <LANG ID="de-DE">PPU-Übersicht anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar resumen PPU</LANG>
+    <LANG ID="fr-FR">Afficher l'aperçu PPU</LANG>
+    <LANG ID="it-IT">Mostra panoramica PPU</LANG>
+    <LANG ID="ja-JP">PPU概要を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowMemSlot</LANG>
+    <LANG ID="en-GB">Show Memory Slot Manager</LANG>
+    <LANG ID="de-DE">Speicher-Slot-Manager anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar administrador de ranuras de memoria</LANG>
+    <LANG ID="fr-FR">Afficher le gestionnaire de slots mémoire</LANG>
+    <LANG ID="it-IT">Mostra gestore slot memoria</LANG>
+    <LANG ID="ja-JP">メモリスロットマネージャを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnProfGUI</LANG>
+    <LANG ID="en-GB">Enable Profiler GUI</LANG>
+    <LANG ID="de-DE">Profiler-GUI aktivieren</LANG>
+    <LANG ID="es-ES">Habilitar GUI de perfilador</LANG>
+    <LANG ID="fr-FR">Activer l'interface du profileur</LANG>
+    <LANG ID="it-IT">Abilita GUI profilatore</LANG>
+    <LANG ID="ja-JP">プロファイラGUIを有効にする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowPersLbl</LANG>
+    <LANG ID="en-GB">Show Person Labels</LANG>
+    <LANG ID="de-DE">Personenbeschriftungen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar etiquetas de personas</LANG>
+    <LANG ID="fr-FR">Afficher les étiquettes des personnes</LANG>
+    <LANG ID="it-IT">Mostra etichette persone</LANG>
+    <LANG ID="ja-JP">人物ラベルを表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowOSDBnd</LANG>
+    <LANG ID="en-GB">Show OSD Object Bounds</LANG>
+    <LANG ID="de-DE">OSD-Objektgrenzen anzeigen</LANG>
+    <LANG ID="es-ES">Mostrar límites de objetos OSD</LANG>
+    <LANG ID="fr-FR">Afficher les limites des objets OSD</LANG>
+    <LANG ID="it-IT">Mostra limiti oggetti OSD</LANG>
+    <LANG ID="ja-JP">OSDオブジェクト境界を表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowSafe169</LANG>
+    <LANG ID="en-GB">Show Safe Zone (16:9)</LANG>
+    <LANG ID="de-DE">Sichere Zone anzeigen (16:9)</LANG>
+    <LANG ID="es-ES">Mostrar zona segura (16:9)</LANG>
+    <LANG ID="fr-FR">Afficher la zone sécurisée (16:9)</LANG>
+    <LANG ID="it-IT">Mostra zona sicura (16:9)</LANG>
+    <LANG ID="ja-JP">セーフゾーンを表示（16:9）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowSafe43</LANG>
+    <LANG ID="en-GB">Show Safe Zone (4:3)</LANG>
+    <LANG ID="de-DE">Sichere Zone anzeigen (4:3)</LANG>
+    <LANG ID="es-ES">Mostrar zona segura (4:3)</LANG>
+    <LANG ID="fr-FR">Afficher la zone sécurisée (4:3)</LANG>
+    <LANG ID="it-IT">Mostra zona sicura (4:3)</LANG>
+    <LANG ID="ja-JP">セーフゾーンを表示（4:3）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEnVisiProf</LANG>
+    <LANG ID="en-GB">Enable Visibility Profiler</LANG>
+    <LANG ID="de-DE">Sichtbarkeits-Profiler aktivieren</LANG>
+    <LANG ID="es-ES">Habilitar perfilador de visibilidad</LANG>
+    <LANG ID="fr-FR">Activer le profileur de visibilité</LANG>
+    <LANG ID="it-IT">Abilita profilatore di visibilità</LANG>
+    <LANG ID="ja-JP">可視性プロファイラを有効にする</LANG>
+  </PHRASE>
+</LOCALISATION>

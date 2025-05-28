@@ -1,0 +1,15 @@
+H1|Welcome to HomeLabOS v1.01
+P|It's more than just another menu!
+P| 
+P|Developed by DeViL303 @ Home Laboratory
+P|  
+P|Dedicated to all the good people in the Home revival scene who share files and information. 
+P| 
+P|Shout out to: Atomic83, AgentDark447, Jumpsuit, Rew, Cade, Pongo86, SpookySniper, JohnDrinkwater, Justmaster, Star_777, Brenden, SlycooperReloadCoded,
+P|Bucanero, Esc0rtd3w, Evilnat, Aldostools, Mr.Mario, STLcardsWS, VelocityGaming5 and anyone else who helped me over the last few years. 
+P| 
+P|This application will be open sourced in full along with its custom API when the time is right. 
+P| 
+P|For support see Psx-Place.com or the Home Laboratory Discord server @ https://dsc.gg/homelaboratory
+P| 
+P|More info to come soon! Watch this space for updates!

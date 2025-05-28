@@ -1,0 +1,91 @@
+id|name|desc|category|thumbnail
+02981672-D4A64888-8AE7CCF6-B68EE572|Ranch Animals|Object Description|Minigames-Embedded|L
+064137D7-52744447-8BE9A6B4-2327500F|NPC|NPC Manager|Minigames-Embedded|L
+089ACE2B-DA574E4F-BC164CC7-15CBD934|Club Gate|Guards the stairs.|Minigames-Embedded|L
+09E091B0-DE7F44B5-81A10CEA-1385CA2E|Cherry Blossom Front 2013|Cherry Blossom Front 2013|Minigames-Embedded|L
+0C826C78-9F514A34-B9C2775B-50C0D834|Blackbeards Challenge Music Player|Music player for the Blackbeards Challenge game.|Minigames-Embedded|L
+106099D5-8E4440F9-A0188DC6-6487D399|EventServer|Object Description|Minigames-Embedded|S
+13A81906-747F408B-87C60A5C-154D3DCA|StreetView|StreetView|Minigames-Embedded|L
+14755076-018E4F8B-9A3E71E0-9D293E72|Scene Audio Management Object SAMO |Scene Audio Management Object SAMO |Minigames-Embedded|P
+1DE605AF-09484395-9B2D5302-A4F4BE20|Personal Water Craft Race|WaterBike_Race|Minigames-Embedded|P
+1F461F5D-B94D4854-9B70D873-D4D9B22D|Landscaping_BM|Beach Mansion Landscaping Tool|Minigames-Embedded|L
+20D5F1AC-AB7C4BD4-9D18DCAE-EEA2DC11|Scene Audio Management Object SAMO |Scene Audio Management Object SAMO |Minigames-Embedded|S
+2217F1E3-43184B15-A4B04084-06651EA6|General Menu System|General Menu System|Minigames-Embedded|S
+222350D1-ED224FCD-AB7429CF-67CD00A8| Sodium2 Multiplayer| Sodium2 Multiplayer|Minigames-Embedded|L
+2B0354EE-B3E14594-9F9A30F2-032099EF|Sound System (Vegetable Garden Ruins)|Sound Processing Object For Vegetable Garden Ruins.|Minigames-Embedded|S
+2BA5AACD-F7B14A2D-9CD8024E-73F4C850|Campaign Management Object|Get Campaign Information From The Server Periodically And Reflect To The Game.|Minigames-Embedded|L
+33E714FC-AC994462-82AA5817-86DAEAB0|CORE Action Decor|CORE Action Decor|Minigames-Embedded|S
+3A4E6099-C9A74614-A809D6B5-F148E075|D2OUniverse_DataObject|Contains data for an individual user|Minigames-Embedded|L
+3BE3366D-C8BC4E9B-8EB33181-2C4AC946|Landscaping_YC|Yacht Club Landscaping Tool|Minigames-Embedded|L
+3BEE9940-8849432C-B5BE199F-ECF0202A|KartRacer|Light|Minigames-Embedded|L
+3F5F1A03-F1904AD8-81CE3E0D-AA0228F7|Personal Water Craft Race|WaterBike_Race|Minigames-Embedded|P
+45518019-DD3E4B20-9B112C9C-7B7D6B58|Hammer Throw|The games are here. Throw your hammer as far as you can.|Minigames-Embedded|S
+48A94294-DF8F4CCC-B17538B3-229D9617|teleport object v2|teleport object|Minigames-Embedded|L
+4CBFC910-2DF345AD-95284B83-9CFFAB4A|100m Sprint|The games are here. Cross the line in the fastest time.|Minigames-Embedded|L
+4CD02248-F02F4BBE-A42B9A1C-8FD249B2|External Server Communication Sending Game Lounge Information|Set Up In Relocated Game Lounge For External Server To Understand Current Status|Minigames-Embedded|L
+4CD52167-CBE4470D-97B72911-CBCEA70A|StudoLogoFollow|PlayStation Network Sphere|Minigames-Embedded|P
+4DFB124A-E6814294-8D157C5A-F9AF5258|External Server Communication Scene Instance ID Acquisition Listener Object|Relocation Distribution Using External Server|Minigames-Embedded|L
+5798E3CF-16974982-BF9A0A2C-9935F8C8|Music Unlimited|Sign up for Music Unlimited 30 Day trial and enjoy all of David Guettas hits today. Just go to PlayStation Store and search for Music Unlimited|Minigames-Embedded|L
+58C8E44F-AE484CC9-852AD853-CB863AA9|Welcome to the Dead Nation Safe House|Spend some time here to prepare yourself to tackle the infestation.|Minigames-Embedded|P
+5B7C107F-D5694838-A394EB50-B687C81F|Public_CentralManager|Central Manager for Heavy Water Public Space|Minigames-Embedded|L
+5D04DD62-77D94D11-8CA33566-F647597F|Notices(OSD)|Notices|Minigames-Embedded|L
+629DB8D6-F29545F6-A0573CC6-CC4F788A|NML Loadout Manager|NML Loadout Manager|Minigames-Embedded|P
+67359DCE-F3554DE6-9FA14DCD-6FF92F4D|Jet Ski Race|WaterBike_Race|Minigames-Embedded|P
+6C387E5A-B8344AF3-8D47D87E-4657D886|RC Rally Multiplayer|Multiplayer Real Time Game|Minigames-Embedded|L
+6CA2458D-3BEE4B68-85CDAFFC-29FA9CA4|Cherry Blossom Front 2011|Cherry Blossom Front 2011|Minigames-Embedded|L
+703BADF0-9FD14979-A44C23F3-FAC8D767|Cherry Blossom Front 2012|Cherry Blossom Front 2012|Minigames-Embedded|L
+70D2E145-4D9E4217-A8D1C395-89374434|Ice Palace Snow|Object Description|Minigames-Embedded|L
+719E15F2-D98642CE-939F23CA-17C454BC|Welcome Message|Welcome Message|Minigames-Embedded|P
+71CB060D-2A7E4CB3-B109341A-65E7547D|Public_Hexx_CentralManager|Central Manager for the Hexx Public Space|Minigames-Embedded|L
+73DE8861-67F24BC1-837ECCCD-B8A83004|Clubhouse Central Manager||Minigames-Embedded|P
+77EB3864-D2EE40CA-AD30CEDE-3C8537A9|FlockingFishParams|paramater list for use by the flocking fish object|Minigames-Embedded|L
+7F1EBE63-3C8A41E7-99AD7377-67CFC158|PS4_Arcade_Manager||Minigames-Embedded|L
+80ADDDCC-E88C4FD7-A20456A8-7F5CC604|Adventure Caustic Lights|Object Description|Minigames-Embedded|L
+829535A7-E42B4313-A8D980F0-AE14E0C8|Wall Screen Manager|Manages wall screen|Minigames-Embedded|L
+82B9CE7B-26CF41AF-8E9FCA8E-B6BB19A4|teleport object|teleport object|Minigames-Embedded|P
+834021AA-4F8F41A5-BE40CC96-BF2C49FB|Sound System (entry Gate)|Sound Processing Object For Entry Gate.|Minigames-Embedded|L
+84875F53-83B44F20-AF9CB994-036A9E89|User Data Management|Manages User Data Management And Handles Communication With The Server.|Minigames-Embedded|L
+848B2EE1-F1F2429D-85C04901-C5015CA1|Passphrase|High Score Table|Minigames-Embedded|L
+88D76843-433F4970-8CE0F283-1E4A223F|Announcements & Errors|Process Announcement Notifications And Error Detection.|Minigames-Embedded|L
+89F85665-B5674010-8E297E5F-5E442AA0|EventController|EventController|Minigames-Embedded|L
+8AF1D0D1-A6524A19-811A6730-A8D6F725|XML Object|XML Object|Minigames-Embedded|L
+8DD90625-15464123-9EA89D9E-DED91D2F|poster|poster screen|Minigames-Embedded|L
+8E914BCB-F45246C9-995B702F-7BF15C72|Scene clothing restrictor object|Removes any non-PM clothing from the local player (and replaces them with PM defaults)|Minigames-Embedded|L
+96223BED-6B724F28-BFD4FDA4-2F180671|peakvox ninja|peakvox ninja|Minigames-Embedded|L
+99EE60AF-48BF4F7F-BD0268B4-2EB03304|Notices|Notices|Minigames-Embedded|L
+9C40B463-12344510-96E3C481-C7318C2B|TR Screen Manager|Screen Management|Minigames-Embedded|P
+9FE95476-2A414C78-8797F0F0-7A37142E|Bootleggers 29|Bootleggers 29|Minigames-Embedded|L
+A0441CA2-B21D420B-822E8E49-27BC6ED0|LOOT_Event_Tracker||Minigames-Embedded|L
+A26692B9-9E7D41FF-8E25740B-EB544C6C|Timed Reward||Minigames-Embedded|P
+A26E6B44-2BB448F3-914615C1-2A1B8843|eod_animation|space station|Minigames-Embedded|L
+A3488FEF-B97645D3-9995926A-FB770C2D|peakvox ninja|peakvox ninja|Minigames-Embedded|L
+A36EFB62-FA6C45C8-84470A20-C667410E|FlockingFish|Fish that follow the player or waypoints|Minigames-Embedded|L
+AA88B41D-7D3D4146-85E99D1E-B7DB75A3|HHH EOD Manager|HHH Daytime Media Pad|Minigames-Embedded|L
+B0958E0C-B63A4037-A33E5FB9-E18F57B5|Instructions|Object Description|Minigames-Embedded|S
+B58D5696-69C34505-A41CC3E4-BBF1DE48|Video Screen|Object Description|Minigames-Embedded|L
+B64B3407-C798437D-873C59B3-DB4DAFC2|PublicSpaceManager||Minigames-Embedded|L
+B77F140D-76E048F6-BDB5D210-959EBCD8|Lion|Lion Embedded Object|Minigames-Embedded|L
+BF3BD5A9-BBE74F10-8AE0AE5A-9EDB76B0|IslandManager_BM|Beach Mansion Island Manager|Minigames-Embedded|L
+BFDDB550-54C74D6B-8BF09840-6703A4C2|IslandManager_YC|Yacht Club Island Manager|Minigames-Embedded|L
+C0480584-796B40B6-808D9E95-59BA8F06|Mahjong Attack|Mahjong Attack is a challenging matching game with three fastpaced game modes. The first is classic Solitair Mahjong with a time twist. The second is a challenging multiplayer mode where you fight your friends for the highest score. In the last mode you and your friend fight to clear the board as quickly as possible in a fastpaced co-op setting.|Minigames-Embedded|L
+C0FAC644-60FB465C-894D65E3-3003D956|Tycoon Penthouse Elevator|Elevator for the Tycoon Penthouse.|Minigames-Embedded|L
+C36D42DB-BEE54240-8C0F7BF7-24F72E65|Tutorial System|Tutorial System|Minigames-Embedded|L
+C9556651-9232430C-B00E51B7-D4ACB127|NPC Manager|NPC Manager|Minigames-Embedded|L
+CA0957A9-D85D4C9D-8D7E179E-12B5ABA2|SpunOsd|SpunOsd|Minigames-Embedded|L
+CA5827EE-4F294C28-92A86B9A-8943A485|Modern Clock|A large modern clock. At 2 meters in diameter, it is easy to read from far away. A simple yet elegant design. This is an interactive active object item.|Minigames-Embedded|L
+CB7F354C-BD954A88-9F5A44AA-D86BB995|Tycoon Penthouse Public Elevator|Elevator for the Tycoon Penthouse Public space.|Minigames-Embedded|L
+CDE7C736-B8BB4161-97C3732B-2D9E9A10|TR Loadout Manager|TR Loadout Manager|Minigames-Embedded|P
+CFF46395-79C14912-9A075C54-1AAF662C|RC_Racers_InformationRepository|Object Description|Minigames-Embedded|L
+D109CEFA-59FD4083-A079A74A-85EEC6DC|Christmas FX Object|Christmas FX Object|Minigames-Embedded|L
+D1E6EF5D-DCD14B16-8B577252-48BF608E|Light|Light|Minigames-Embedded|L
+D1F0DA01-98BE4124-9F6A4796-70916B5F|Wizards Duel Shady Character|Embedded object with NPC that hints at the Wizards Duel game|Minigames-Embedded|L
+D25CCFAD-894A45F0-A349DFC4-9AC71E94|Shopkeeper|Maybe I will wave at you.|Minigames-Embedded|L
+D9CC0BB2-F3CF44F2-98DDCEF8-FBCE0E18|IslandManager_BM_OH||Minigames-Embedded|L
+DA62F383-400D42D3-8F8E4761-575E0180|Chat Restrictor|Restricts chat for a scene and informs the user|Minigames-Embedded|L
+DCE318DD-96F840BB-84B4233C-D61324E3|General Menu System (Entry Gate)|General Menu System (Entry Gate)|Minigames-Embedded|L
+DD415034-79E44505-8969FE89-19A3EF5B|Sound System (Farm Ruins)|Sound Processing Object For Farm Ruins.|Minigames-Embedded|L
+DE7AD0DA-164B4B78-93F6172B-8417FCE1|peakvox ninja|peakvox ninja|Minigames-Embedded|L
+E39C7A5D-6A6747EE-A288F693-2F90EA17|Mansion Door|Doors to other parts of the Mansion.|Minigames-Embedded|L
+E5A337A3-B5584C9D-A3BC2ED7-959B6051|Landscaping_Yacht|Beach Mansion Landscaping Tool|Minigames-Embedded|L
+FA0B7CDB-B6C74ADA-A3B43D43-40700BE9|Officers Club Doors|Officers Club Doors|Minigames-Embedded|L
+FC75FEC0-CEDA4DC7-B750BCB9-E6229026|VidZone|Watch all of David Guettas music videos for free on VidZone today. Just go to PlayStation Store and search for VidZone|Minigames-Embedded|L

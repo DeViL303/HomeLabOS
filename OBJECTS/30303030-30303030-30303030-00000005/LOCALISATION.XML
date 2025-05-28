@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="en-GB">Start HLOS</LANG>
+    <LANG ID="en-US">Start HLOS</LANG>
+    <LANG ID="en-SG">Start HLOS</LANG>
+    <LANG ID="fr-FR">Start HLOS</LANG>
+    <LANG ID="de-DE">Start HLOS</LANG>
+    <LANG ID="it-IT">Start HLOS</LANG>
+    <LANG ID="es-ES">Start HLOS</LANG>
+    <LANG ID="ja-JP">Start HLOS</LANG>
+    <LANG ID="ko-KR">Start HLOS</LANG>
+    <LANG ID="zh-HK">Start HLOS</LANG>
+    <LANG ID="zh-TW">Start HLOS</LANG>
+  </PHRASE>
+</LOCALISATION>
