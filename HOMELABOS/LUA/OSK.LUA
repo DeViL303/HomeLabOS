@@ -175,7 +175,7 @@ function ToggleCharSet()
         [6] = "arrows_symbols",
         [7] = "repear"
     }
-    print("[#4ThePlayers] Toggled character set to: " .. charSetNames[g_CharSet])
+    print("[#HomeLabOS v1.01] Toggled character set to: " .. charSetNames[g_CharSet])
     gSoundBank:Play2d("page_flip")
 end
 
@@ -429,7 +429,7 @@ local function PerformOSKNavigation(direction)
             g_CustomOSKSelectedButton = buttonCount + 1
         end
         gSoundBank:Play2d("page_flip")
-        print("[#4ThePlayers] Custom OSK selected button (right): " .. g_CustomOSKSelectedButton)
+        print("[#HomeLabOS v1.01] Custom OSK selected button (right): " .. g_CustomOSKSelectedButton)
     elseif direction == "left" then
         local newCol = currentCol - 1
         if newCol >= 0 then
@@ -438,7 +438,7 @@ local function PerformOSKNavigation(direction)
             g_CustomOSKSelectedButton = buttonCount + buttonsPerRow[currentRow + 1]
         end
         gSoundBank:Play2d("page_flip")
-        print("[#4ThePlayers] Custom OSK selected button (left): " .. g_CustomOSKSelectedButton)
+        print("[#HomeLabOS v1.01] Custom OSK selected button (left): " .. g_CustomOSKSelectedButton)
     elseif direction == "up" then
         if currentRow > 0 then
             local targetRow = currentRow - 1
@@ -450,10 +450,10 @@ local function PerformOSKNavigation(direction)
             end
             g_CustomOSKSelectedButton = targetButtonCount + targetCol + 1
             gSoundBank:Play2d("page_flip")
-            print("[#4ThePlayers] Custom OSK selected button (up): " .. g_CustomOSKSelectedButton)
+            print("[#HomeLabOS v1.01] Custom OSK selected button (up): " .. g_CustomOSKSelectedButton)
         else
             gSoundBank:Play2d("cancel_back")
-            print("[#4ThePlayers] Cannot move up: at top row")
+            print("[#HomeLabOS v1.01] Cannot move up: at top row")
         end
     elseif direction == "down" then
         if currentRow < 4 then
@@ -477,10 +477,10 @@ local function PerformOSKNavigation(direction)
                 g_CustomOSKSelectedButton = targetButtonCount + targetCol + 1
             end
             gSoundBank:Play2d("page_flip")
-            print("[#4ThePlayers] Custom OSK selected button (down): " .. g_CustomOSKSelectedButton)
+            print("[#HomeLabOS v1.01] Custom OSK selected button (down): " .. g_CustomOSKSelectedButton)
         else
             gSoundBank:Play2d("cancel_back")
-            print("[#4ThePlayers] Cannot move down: at bottom row")
+            print("[#HomeLabOS v1.01] Cannot move down: at bottom row")
         end
     end
 end

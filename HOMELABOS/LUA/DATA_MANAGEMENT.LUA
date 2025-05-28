@@ -51,7 +51,7 @@ function ResetCategoryRequest()
         g_CategoryPostData = nil
     end
     g_CategoryTabLabel = nil
-    print("[#4ThePlayers] Category request state reset")
+    print("[#HomeLabOS v1.01] Category request state reset")
 end
 
 function ResetSearchRequest()
@@ -61,7 +61,7 @@ function ResetSearchRequest()
         g_SearchPostData = nil
     end
     g_SearchTabLabel = nil
-    print("[#4ThePlayers] Search request state reset")
+    print("[#HomeLabOS v1.01] Search request state reset")
 end
 
 function ResetHelpRequest()
@@ -74,7 +74,7 @@ function ResetHelpRequest()
         g_HelpPostData = nil
     end
     g_HelpAction = nil
-    print("[#4ThePlayers] Help request state reset")
+    print("[#HomeLabOS v1.01] Help request state reset")
 end
 
 function ResetLobbyRequest()
@@ -87,7 +87,7 @@ function ResetLobbyRequest()
         g_LobbyPostData = nil
     end
     g_LobbyTabLabel = nil
-    print("[#4ThePlayers] Lobby request state reset")
+    print("[#HomeLabOS v1.01] Lobby request state reset")
 end
 
 function ResetSystemInfoRequest()
@@ -102,7 +102,7 @@ function ResetSystemInfoRequest()
     if g_SystemInfoContainer then
         g_SystemInfoContainer = nil
     end
-    print("[#4ThePlayers] System info request state reset")
+    print("[#HomeLabOS v1.01] System info request state reset")
 end
 
 function IsSearchRequestReady()
@@ -166,7 +166,7 @@ function ResetLobbyRequest()
         g_LobbyPostData = nil
     end
     g_LobbyTabLabel = nil
-    print("[#4ThePlayers] Lobby request state reset")
+    print("[#HomeLabOS v1.01] Lobby request state reset")
 end
 
 
@@ -182,7 +182,7 @@ function ResetSentInvitesRequest()
     if g_SentInvitesPostData then
         g_SentInvitesPostData = nil
     end
-    print("[#4ThePlayers] Sent Invites request state reset")
+    print("[#HomeLabOS v1.01] Sent Invites request state reset")
 end
 
 function ResetReceivedInvitesRequest()
@@ -197,7 +197,7 @@ function ResetReceivedInvitesRequest()
     if g_ReceivedInvitesPostData then
         g_ReceivedInvitesPostData = nil
     end
-    print("[#4ThePlayers] Received Invites request state reset")
+    print("[#HomeLabOS v1.01] Received Invites request state reset")
 end
 
 function IsLobbyRequestReady()
@@ -246,7 +246,7 @@ function ResetLobbyRequest()
         g_LobbyPostData = nil
     end
     g_LobbyTabLabel = nil
-    print("[#4ThePlayers] Lobby request state reset")
+    print("[#HomeLabOS v1.01] Lobby request state reset")
 end
 
 function ResetSentInvitesRequest()
@@ -261,7 +261,7 @@ function ResetSentInvitesRequest()
     if g_SentInvitesPostData then
         g_SentInvitesPostData = nil
     end
-    print("[#4ThePlayers] Sent Invites request state reset")
+    print("[#HomeLabOS v1.01] Sent Invites request state reset")
 end
 
 function ResetReceivedInvitesRequest()
@@ -276,7 +276,7 @@ function ResetReceivedInvitesRequest()
     if g_ReceivedInvitesPostData then
         g_ReceivedInvitesPostData = nil
     end
-    print("[#4ThePlayers] Received Invites request state reset")
+    print("[#HomeLabOS v1.01] Received Invites request state reset")
 end
 
 function IsLobbyRequestReady()
@@ -325,7 +325,7 @@ function RequestLobbyData(action)
         local receivedInvitesItems = {}
 
 
-        print("[#4ThePlayers] Fetching friends list for Friends Online")
+        print("[#HomeLabOS v1.01] Fetching friends list for Friends Online")
         local friends = LocalPlayer.GetFriends() or {}
         for _, friend in ipairs(friends) do
             local friendName = User.GetName(friend) or "UnknownFriend"
@@ -335,9 +335,9 @@ function RequestLobbyData(action)
                 texture_resource = nil,
                 texture = nil
             })
-            print("[#4ThePlayers] Added friend: " .. friendName)
+            print("[#HomeLabOS v1.01] Added friend: " .. friendName)
         end
-        print("[#4ThePlayers] Friends Online: Retrieved " .. #friendsItems .. " friends")
+        print("[#HomeLabOS v1.01] Friends Online: Retrieved " .. #friendsItems .. " friends")
 
 
         g_LobbyItems["Players Online"] = g_LobbyItems["Players Online"] or {}
@@ -351,10 +351,10 @@ function RequestLobbyData(action)
 
 
         url = "http://173.225.107.46/HomeLab_OS_API/lobbies.php?players"
-        print("[#4ThePlayers] Initiating whoisonline API request to: " .. url)
+        print("[#HomeLabOS v1.01] Initiating whoisonline API request to: " .. url)
         g_LobbyContainer = MemoryContainer.Create(4096)
         if not g_LobbyContainer then
-            print("[#4ThePlayers] Error: Failed to create memory container for whoisonline request")
+            print("[#HomeLabOS v1.01] Error: Failed to create memory container for whoisonline request")
             g_LobbyItems["Players Online"].whoIsOnline = {}
             g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items 0"
             g_TotalPages["Players Online"]["whoisonline"] = 1
@@ -368,13 +368,13 @@ function RequestLobbyData(action)
             g_TotalPages["Players Online"]["receivedinvites"] = 1
             g_CurrentPage["Players Online"]["receivedinvites"] = 1
             g_LobbyTabLabel = "Players Online"
-            print("[#4ThePlayers] whoisonline request failed: No memory container")
+            print("[#HomeLabOS v1.01] whoisonline request failed: No memory container")
             return false
         end
 
         g_LobbyPostData = HttpPostData.Create(g_LobbyContainer, "text/plain")
         if not g_LobbyPostData then
-            print("[#4ThePlayers] Error: Failed to create post data for whoisonline request")
+            print("[#HomeLabOS v1.01] Error: Failed to create post data for whoisonline request")
             g_LobbyContainer = nil
             g_LobbyItems["Players Online"].whoIsOnline = {}
             g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items 0"
@@ -389,7 +389,7 @@ function RequestLobbyData(action)
             g_TotalPages["Players Online"]["receivedinvites"] = 1
             g_CurrentPage["Players Online"]["receivedinvites"] = 1
             g_LobbyTabLabel = "Players Online"
-            print("[#4ThePlayers] whoisonline request failed: No post data")
+            print("[#HomeLabOS v1.01] whoisonline request failed: No post data")
             return false
         end
 
@@ -401,7 +401,7 @@ function RequestLobbyData(action)
 
         g_LobbyResource = Resource.Request(url, "file", g_LobbyPostData)
         if not g_LobbyResource then
-            print("[#4ThePlayers] Error: Failed to initiate whoisonline API request")
+            print("[#HomeLabOS v1.01] Error: Failed to initiate whoisonline API request")
             g_LobbyPostData = nil
             g_LobbyContainer = nil
             g_LobbyItems["Players Online"].whoIsOnline = {}
@@ -417,7 +417,7 @@ function RequestLobbyData(action)
             g_TotalPages["Players Online"]["receivedinvites"] = 1
             g_CurrentPage["Players Online"]["receivedinvites"] = 1
             g_LobbyTabLabel = "Players Online"
-            print("[#4ThePlayers] whoisonline request failed: Resource request failed")
+            print("[#HomeLabOS v1.01] whoisonline request failed: Resource request failed")
             return false
         end
 
@@ -436,7 +436,7 @@ function RequestLobbyData(action)
         g_CurrentPage["Players Online"]["receivedinvites"] = 1
         g_LobbyTabLabel = "Players Online"
         g_LobbyRequestPending = true
-        print("[#4ThePlayers] Initiated whoisonline request, waiting for API response. Friends Online: " .. #friendsItems .. " items")
+        print("[#HomeLabOS v1.01] Initiated whoisonline request, waiting for API response. Friends Online: " .. #friendsItems .. " items")
 
 
         local startTime = GetInstanceTime()
@@ -447,7 +447,7 @@ function RequestLobbyData(action)
                 if memContainer then
                     local success, result = pcall(function() return MemoryContainer.GetString(memContainer, 0) end)
                     if success and result then
-                        print("[#4ThePlayers] Successfully read whoisonline response in RequestLobbyData: " .. tostring(result))
+                        print("[#HomeLabOS v1.01] Successfully read whoisonline response in RequestLobbyData: " .. tostring(result))
                         for line in result:gmatch("[^\r\n]+") do
                             local playerName, mapId = line:match("^%s*(.-)|(.*)%s*$")
                             if playerName and playerName ~= "" and mapId then
@@ -458,26 +458,26 @@ function RequestLobbyData(action)
                                     texture_resource = nil,
                                     texture = nil
                                 })
-                                print("[#4ThePlayers] Added player: " .. playerName .. " | MapId: " .. mapId)
+                                print("[#HomeLabOS v1.01] Added player: " .. playerName .. " | MapId: " .. mapId)
 
                                 local myNameStr = tostring(myName)
                                 if myNameStr ~= "Unknown" and playerName:find("^" .. myNameStr, 1, true) then
                                     g_MyNameIs = playerName
-                                    print("[#4ThePlayers] Updated g_MyNameIs to: " .. playerName)
+                                    print("[#HomeLabOS v1.01] Updated g_MyNameIs to: " .. playerName)
                                 end
                             end
                         end
                         g_LobbyItems["Players Online"].whoIsOnline = whoIsOnlineItems
                         g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items " .. #whoIsOnlineItems
-                        print("[#4ThePlayers] Total players added: " .. #whoIsOnlineItems)
+                        print("[#HomeLabOS v1.01] Total players added: " .. #whoIsOnlineItems)
                     else
-                        print("[#4ThePlayers] Error: Failed to read memory container for whoisonline in RequestLobbyData: " .. tostring(result))
+                        print("[#HomeLabOS v1.01] Error: Failed to read memory container for whoisonline in RequestLobbyData: " .. tostring(result))
                         g_LobbyItems["Players Online"].whoIsOnline = {}
                         g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items 0"
                     end
                     memContainer = nil
                 else
-                    print("[#4ThePlayers] Error: Failed to create memory container for whoisonline in RequestLobbyData")
+                    print("[#HomeLabOS v1.01] Error: Failed to create memory container for whoisonline in RequestLobbyData")
                     g_LobbyItems["Players Online"].whoIsOnline = {}
                     g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items 0"
                 end
@@ -489,20 +489,20 @@ function RequestLobbyData(action)
             end
         end
         if g_LobbyRequestPending then
-            print("[#4ThePlayers] Who Is Online request timed out after 3 seconds, will process in UIUpdate")
+            print("[#HomeLabOS v1.01] Who Is Online request timed out after 3 seconds, will process in UIUpdate")
         end
 
 
         local sentInvitesUrl = "http://173.225.107.46/HomeLab_OS_API/checkinvites.php?sessionid=" .. UrlEncode(sessionID) .. "&myname=" .. UrlEncode(myName) .. "&type=sent"
-        print("[#4ThePlayers] Initiating sent invites API request to: " .. sentInvitesUrl)
+        print("[#HomeLabOS v1.01] Initiating sent invites API request to: " .. sentInvitesUrl)
         g_SentInvitesContainer = MemoryContainer.Create(4096)
         if not g_SentInvitesContainer then
-            print("[#4ThePlayers] Error: Failed to create memory container for sent invites request")
+            print("[#HomeLabOS v1.01] Error: Failed to create memory container for sent invites request")
             sentInvitesItems = {}
         else
             g_SentInvitesPostData = HttpPostData.Create(g_SentInvitesContainer, "text/plain")
             if not g_SentInvitesPostData then
-                print("[#4ThePlayers] Error: Failed to create post data for sent invites request")
+                print("[#HomeLabOS v1.01] Error: Failed to create post data for sent invites request")
                 g_SentInvitesContainer = nil
                 sentInvitesItems = {}
             else
@@ -513,28 +513,28 @@ function RequestLobbyData(action)
                 g_SentInvitesPostData:Finalize()
                 g_SentInvitesResource = Resource.Request(sentInvitesUrl, "file", g_SentInvitesPostData)
                 if not g_SentInvitesResource then
-                    print("[#4ThePlayers] Error: Failed to initiate sent invites API request")
+                    print("[#HomeLabOS v1.01] Error: Failed to initiate sent invites API request")
                     g_SentInvitesPostData = nil
                     g_SentInvitesContainer = nil
                     sentInvitesItems = {}
                 else
                     g_SentInvitesRequestPending = true
-                    print("[#4ThePlayers] Sent invites request initiated, will process in UIUpdate")
+                    print("[#HomeLabOS v1.01] Sent invites request initiated, will process in UIUpdate")
                 end
             end
         end
 
 
         local receivedInvitesUrl = "http://173.225.107.46/HomeLab_OS_API/checkinvites.php?sessionid=" .. UrlEncode(sessionID) .. "&myname=" .. UrlEncode(myName) .. "&type=received"
-        print("[#4ThePlayers] Initiating received invites API request to: " .. receivedInvitesUrl)
+        print("[#HomeLabOS v1.01] Initiating received invites API request to: " .. receivedInvitesUrl)
         g_ReceivedInvitesContainer = MemoryContainer.Create(4096)
         if not g_ReceivedInvitesContainer then
-            print("[#4ThePlayers] Error: Failed to create memory container for received invites request")
+            print("[#HomeLabOS v1.01] Error: Failed to create memory container for received invites request")
             receivedInvitesItems = {}
         else
             g_ReceivedInvitesPostData = HttpPostData.Create(g_ReceivedInvitesContainer, "text/plain")
             if not g_ReceivedInvitesPostData then
-                print("[#4ThePlayers] Error: Failed to create post data for received invites request")
+                print("[#HomeLabOS v1.01] Error: Failed to create post data for received invites request")
                 g_ReceivedInvitesContainer = nil
                 receivedInvitesItems = {}
             else
@@ -545,13 +545,13 @@ function RequestLobbyData(action)
                 g_ReceivedInvitesPostData:Finalize()
                 g_ReceivedInvitesResource = Resource.Request(receivedInvitesUrl, "file", g_ReceivedInvitesPostData)
                 if not g_ReceivedInvitesResource then
-                    print("[#4ThePlayers] Error: Failed to initiate received invites API request")
+                    print("[#HomeLabOS v1.01] Error: Failed to initiate received invites API request")
                     g_ReceivedInvitesPostData = nil
                     g_ReceivedInvitesContainer = nil
                     receivedInvitesItems = {}
                 else
                     g_ReceivedInvitesRequestPending = true
-                    print("[#4ThePlayers] Received invites request initiated, will process in UIUpdate")
+                    print("[#HomeLabOS v1.01] Received invites request initiated, will process in UIUpdate")
                 end
             end
         end
@@ -561,22 +561,22 @@ function RequestLobbyData(action)
         g_CategoryPageInfo["Players Online"]["sentinvites"] = "Page 1 of 1   Total Items " .. #sentInvitesItems
         g_LobbyItems["Players Online"].receivedInvites = receivedInvitesItems
         g_CategoryPageInfo["Players Online"]["receivedinvites"] = "Page 1 of 1   Total Items " .. #receivedInvitesItems
-        print("[#4ThePlayers] Requests initiated. Friends Online: " .. #friendsItems .. ", Sent Invites: " .. #sentInvitesItems .. ", Received Invites: " .. #receivedInvitesItems .. " items")
+        print("[#HomeLabOS v1.01] Requests initiated. Friends Online: " .. #friendsItems .. ", Sent Invites: " .. #sentInvitesItems .. ", Received Invites: " .. #receivedInvitesItems .. " items")
         return true
     else
-        print("[#4ThePlayers] Error: Invalid action for lobby request: " .. tostring(action))
+        print("[#HomeLabOS v1.01] Error: Invalid action for lobby request: " .. tostring(action))
         return false
     end
 
     g_LobbyContainer = MemoryContainer.Create(4096)
     if not g_LobbyContainer then
-        print("[#4ThePlayers] Error: Failed to create memory container for lobby request")
+        print("[#HomeLabOS v1.01] Error: Failed to create memory container for lobby request")
         return false
     end
 
     g_LobbyPostData = HttpPostData.Create(g_LobbyContainer, "text/plain")
     if not g_LobbyPostData then
-        print("[#4ThePlayers] Error: Failed to create post data for lobby request")
+        print("[#HomeLabOS v1.01] Error: Failed to create post data for lobby request")
         g_LobbyContainer = nil
         return false
     end
@@ -589,7 +589,7 @@ function RequestLobbyData(action)
 
     g_LobbyResource = Resource.Request(url, "file", g_LobbyPostData)
     if not g_LobbyResource then
-        print("[#4ThePlayers] Error: Failed to initiate lobby request")
+        print("[#HomeLabOS v1.01] Error: Failed to initiate lobby request")
         g_LobbyPostData = nil
         g_LobbyContainer = nil
         return false
@@ -597,7 +597,7 @@ function RequestLobbyData(action)
 
     g_LobbyRequestPending = true
     g_LobbyTabLabel = "Players Online"
-    print("[#4ThePlayers] Initiated lobby request for action: " .. action .. " with URL: " .. url)
+    print("[#HomeLabOS v1.01] Initiated lobby request for action: " .. action .. " with URL: " .. url)
     return true
 end
 function RequestSystemInfo()
@@ -607,13 +607,13 @@ function RequestSystemInfo()
 
     g_SystemInfoContainer = MemoryContainer.Create(8192)
     if not g_SystemInfoContainer then
-        print("[#4ThePlayers] Error: Failed to create memory container for system info request")
+        print("[#HomeLabOS v1.01] Error: Failed to create memory container for system info request")
         return false
     end
 
     g_SystemInfoPostData = HttpPostData.Create(g_SystemInfoContainer, "text/plain")
     if not g_SystemInfoPostData then
-        print("[#4ThePlayers] Error: Failed to create post data for system info request")
+        print("[#HomeLabOS v1.01] Error: Failed to create post data for system info request")
         g_SystemInfoContainer = nil
         return false
     end
@@ -626,14 +626,14 @@ function RequestSystemInfo()
 
     g_SystemInfoResource = Resource.Request(url, "file", g_SystemInfoPostData)
     if not g_SystemInfoResource then
-        print("[#4ThePlayers] Error: Failed to initiate system info request")
+        print("[#HomeLabOS v1.01] Error: Failed to initiate system info request")
         g_SystemInfoPostData = nil
         g_SystemInfoContainer = nil
         return false
     end
 
     g_SystemInfoRequestPending = true
-    print("[#4ThePlayers] Initiated system info request")
+    print("[#HomeLabOS v1.01] Initiated system info request")
     return true
 end
 

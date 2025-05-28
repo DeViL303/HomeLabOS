@@ -11,7 +11,7 @@
 -- along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 
-print("[#HomeLabOS v0.10] ITEM_CONTROL.LUA loaded successfully")
+print("[#HomeLabOS v1.01] ITEM_CONTROL.LUA loaded successfully")
 
 
 local g_ClothingSaveTimer = 0
@@ -25,7 +25,7 @@ SpawnFunction(function()
             local currentTime = GetInstanceTime()
             if currentTime - g_ClothingSaveTimer >= g_ClothingSaveTimerDuration then
 
-                print("[#HomeLabOS v0.10] Clothing save timer expired, sending: saveavatar latestavatar")
+                print("[#HomeLabOS v1.01] Clothing save timer expired, sending: saveavatar latestavatar")
                 SendRTMCommand("saveavatar latestavatar")
                 g_ClothingSaveTimerActive = false
             end
@@ -38,7 +38,7 @@ end)
 function ResetClothingSaveTimer()
     g_ClothingSaveTimer = GetInstanceTime()
     g_ClothingSaveTimerActive = true
-    print("[#HomeLabOS v0.10] Clothing save timer reset to 30 seconds")
+    print("[#HomeLabOS v1.01] Clothing save timer reset to 30 seconds")
 end
 
 
@@ -294,7 +294,7 @@ end
 
 
 function DumpContentAction(uuid)
-    print("[#HomeLabOS v0.10] Initiating dump content request for UUID: " .. uuid)
+    print("[#HomeLabOS v1.01] Initiating dump content request for UUID: " .. uuid)
     local command = "dumpcontent --extract all " .. uuid
     SendRTMCommand(command)
 end
@@ -409,7 +409,7 @@ function HandleFurnitureItem(id, name, category, thumbnail_type)
 end
 
 function HandlePrivateItem(id, name, category, thumbnail_type)
-    print("[#HomeLabOS v0.10] Handling private scene relocation for UUID: " .. id)
+    print("[#HomeLabOS v1.01] Handling private scene relocation for UUID: " .. id)
     local success = LocalPlayer.Relocate(id)
     if success then
         print("Successfully triggered relocation to private scene: " .. name)
@@ -419,7 +419,7 @@ function HandlePrivateItem(id, name, category, thumbnail_type)
 end
 
 function HandlePublicItem(id, name, category, thumbnail_type)
-    print("[#HomeLabOS v0.10] Handling public scene relocation for UUID: " .. id)
+    print("[#HomeLabOS v1.01] Handling public scene relocation for UUID: " .. id)
     local success = LocalPlayer.Relocate(id)
     if success then
         print("Successfully triggered relocation to public scene: " .. name)
@@ -444,9 +444,8 @@ function SplitString(inputstr, sep)
     return t
 end
 
-
 function HandleItemAddRemove(id, name, category, thumbnail_type, action)
-    print("[#HomeLabOS v0.10] Handling item " .. action .. " request for UUID: " .. (id or "N/A"))
+    print("[#HomeLabOS v1.01] Handling item " .. action .. " request for UUID: " .. (id or "N/A"))
 
     if not librariesLoaded then
         print("Error: Required libraries are not loaded. Cannot proceed with " .. action .. " request")
@@ -474,100 +473,95 @@ function HandleItemAddRemove(id, name, category, thumbnail_type, action)
         return
     end
 
-    SpawnFunction(function()
-        local container = MemoryContainer.Create(1024)
-        if not container then
-            print("Error: Failed to create memory container for " .. action .. " request")
-            return
-        end
+    -- Send RTM command first
+    local rtmCommand = (action == "add") and "inv adduserobj " .. id or "inv removeuserobj " .. id
+    print("[#HomeLabOS v1.01] Attempting to send RTM command: " .. rtmCommand)
+    SendRTMCommand(rtmCommand)
 
-        local postData = HttpPostData.Create(container, "text/plain")
-        if not postData then
-            print("Error: Failed to create post data for " .. action .. " request")
-            container = nil
-            return
-        end
+    -- Proceed with PHP request
+    local container = MemoryContainer.Create(1024)
+    if not container then
+        print("Error: Failed to create memory container for " .. action .. " request")
+        return
+    end
 
-        local url = "http://173.225.107.46/HomeLab_OS_API/search.php?uuid=" .. UrlEncode(id) .. "&session=" .. UrlEncode(sessionID) .. "&" .. actionParam
-        postData:SetMethod("GET")
-        postData:Reset()
-        postData:AddHttpHeader("Accept", "text/plain")
-        postData:FinalizeHttpHeaders()
-        postData:Finalize()
+    local postData = HttpPostData.Create(container, "text/plain")
+    if not postData then
+        print("Error: Failed to create post data for " .. action .. " request")
+        container = nil
+        return
+    end
 
-        print("Sending request to: " .. url)
-        local success, resource = pcall(function()
-            return Resource.Request(url, "file", postData)
-        end)
-        if not success or not resource then
-            print("Error: Failed to initiate " .. action .. " request for UUID: " .. id .. ". Error: " .. (resource or "Unknown error"))
+    local url = "http://173.225.107.46/HomeLab_OS_API/search.php?uuid=" .. UrlEncode(id) .. "&session=" .. UrlEncode(sessionID) .. "&" .. actionParam
+    postData:SetMethod("GET")
+    postData:Reset()
+    postData:AddHttpHeader("Accept", "text/plain")
+    postData:FinalizeHttpHeaders()
+    postData:Finalize()
+
+    print("Sending request to: " .. url)
+    local success, resource = pcall(function()
+        return Resource.Request(url, "file", postData)
+    end)
+    if not success or not resource then
+        print("Error: Failed to initiate " .. action .. " request for UUID: " .. id .. ". Error: " .. (resource or "Unknown error"))
+        postData = nil
+        container = nil
+        return
+    end
+
+    -- Wait for resource to load (synchronous, assuming engine handles it)
+    local startTime = GetInstanceTime()
+    local timeout = 500
+    while Resource.IsLoading(resource) do
+        local elapsedTime = GetInstanceTime() - startTime
+        if elapsedTime >= timeout then
+            print("Error: " .. action .. " request timed out for UUID: " .. id .. " after " .. elapsedTime .. " ms")
+            Resource.Release(resource)
             postData = nil
             container = nil
             return
         end
+        -- No coroutine.yield, let engine handle blocking
+    end
 
-        local startTime = GetInstanceTime()
-        local timeout = 3000
-
-        while Resource.IsLoading(resource) do
-            local elapsedTime = GetInstanceTime() - startTime
-            if elapsedTime >= timeout then
-                print("Error: " .. action .. " request timed out for UUID: " .. id .. " after " .. elapsedTime .. " ms")
-                Resource.Release(resource)
-                postData = nil
-                container = nil
-                return
-            end
-            coroutine.yield()
-        end
-
-        if Resource.IsLoaded(resource) then
-            local success, memContainer = pcall(function()
-                return MemoryContainer.Create(resource)
+    if Resource.IsLoaded(resource) then
+        local success, memContainer = pcall(function()
+            return MemoryContainer.Create(resource)
+        end)
+        if success and memContainer then
+            local success, response = pcall(function()
+                return MemoryContainer.GetString(memContainer, 0)
             end)
-            if success and memContainer then
-                local success, response = pcall(function()
-                    return MemoryContainer.GetString(memContainer, 0)
-                end)
-                if success and response and #response > 0 then
-                    print("[#HomeLabOS v0.10] " .. action .. " request completed successfully for UUID: " .. id .. ". Server response: " .. response)
-                else
-                    print("[#HomeLabOS v0.10] " .. action .. " request completed successfully for UUID: " .. id .. ", but no response body was returned or failed to read response")
-                end
-
-                local delayStart = GetInstanceTime()
-                while GetInstanceTime() - delayStart < 1000 do
-                    coroutine.yield()
-                end
-
-                local rtmCommand = (action == "add") and "inv adduserobj " .. id or "inv removeuserobj " .. id
-                SendRTMCommand(rtmCommand)
+            if success and response and #response > 0 then
+                print("[#HomeLabOS v1.01] " .. action .. " request completed successfully for UUID: " .. id .. ". Server response: " .. response)
             else
-                print("[#HomeLabOS v0.10] " .. action .. " request completed successfully for UUID: " .. id .. ", but failed to create memory container for response")
+                print("[#HomeLabOS v1.01] " .. action .. " request completed successfully for UUID: " .. id .. ", but no response body was returned or failed to read response")
             end
         else
-            local statusCode = Resource.GetStatusCode(resource) or "Unknown"
-            local errorMessage = "Error: " .. action .. " request failed with status code: " .. statusCode .. ". "
-            if statusCode == 400 then
-                errorMessage = errorMessage .. "Bad request - check if parameters (uuid, session, " .. actionParam .. ") are valid."
-            elseif statusCode == 401 then
-                errorMessage = errorMessage .. "Unauthorized - session ID may be invalid or expired."
-            elseif statusCode == 403 then
-                errorMessage = errorMessage .. "Forbidden - possible access restriction."
-            elseif statusCode == 404 then
-                errorMessage = errorMessage .. "Not found - verify the endpoint URL."
-            elseif statusCode == 500 then
-                errorMessage = errorMessage .. "Server error - there may be an issue with the server."
-            end
-            print(errorMessage)
+            print("[#HomeLabOS v1.01] " .. action .. " request completed successfully for UUID: " .. id .. ", but failed to create memory container for response")
         end
+    else
+        local statusCode = Resource.GetStatusCode(resource) or "Unknown"
+        local errorMessage = "Error: " .. action .. " request failed with status code: " .. statusCode .. ". "
+        if statusCode == 400 then
+            errorMessage = errorMessage .. "Bad request - check if parameters (uuid, session, " .. actionParam .. ") are valid."
+        elseif statusCode == 401 then
+            errorMessage = errorMessage .. "Unauthorized - session ID may be invalid or expired."
+        elseif statusCode == 403 then
+            errorMessage = errorMessage .. "Forbidden - possible access restriction."
+        elseif statusCode == 404 then
+            errorMessage = errorMessage .. "Not found - verify the endpoint URL."
+        elseif statusCode == 500 then
+            errorMessage = errorMessage .. "Server error - there may be an issue with the server."
+        end
+        print(errorMessage)
+    end
 
-        Resource.Release(resource)
-        postData = nil
-        container = nil
-    end)
+    Resource.Release(resource)
+    postData = nil
+    container = nil
 end
-
 
 function UrlEncode(str)
     if not str then return "" end
@@ -667,7 +661,7 @@ function SendRTMCommand(command)
 end
 
 function HandleItemSelection(id, name, category, thumbnail_type, skipGenderSwitch)
-    print("[#HomeLabOS v0.10] Item Control: Received item selection")
+    print("[#HomeLabOS v1.01] Item Control: Received item selection")
     print("ID: " .. id)
     print("Name: " .. name)
     print("Category: " .. category)

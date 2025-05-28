@@ -469,13 +469,13 @@ function UIRenderPageContent(bgX, bgY, bgWidth, bgHeight, topBarHeight)
     if isLoading then
 
         if selectedAction == "whoisonline" and IsLobbyRequestReady() then
-            print("[#4ThePlayers] Lobby request ready, processing whoisonline response")
+            print("[#HomeLabOS v1.01] Lobby request ready, processing whoisonline response")
             local whoIsOnlineItems = {}
             local memContainer = MemoryContainer.Create(g_LobbyResource)
             if memContainer then
                 local success, result = pcall(function() return MemoryContainer.GetString(memContainer, 0) end)
                 if success and result then
-                    print("[#4ThePlayers] Successfully read response: " .. tostring(result))
+                    print("[#HomeLabOS v1.01] Successfully read response: " .. tostring(result))
                     for line in result:gmatch("[^\r\n]+") do
                         local playerName, mapId = line:match("^%s*(.-)|(.*)%s*$")
                         if playerName and playerName ~= "" and mapId then
@@ -486,20 +486,20 @@ function UIRenderPageContent(bgX, bgY, bgWidth, bgHeight, topBarHeight)
                                 texture_resource = nil,
                                 texture = nil
                             })
-                            print("[#4ThePlayers] Added player: " .. playerName .. " | MapId: " .. mapId)
+                            print("[#HomeLabOS v1.01] Added player: " .. playerName .. " | MapId: " .. mapId)
                         end
                     end
                     g_LobbyItems["Players Online"].whoIsOnline = whoIsOnlineItems
                     g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items " .. #whoIsOnlineItems
-                    print("[#4ThePlayers] Total players added: " .. #whoIsOnlineItems)
+                    print("[#HomeLabOS v1.01] Total players added: " .. #whoIsOnlineItems)
                 else
-                    print("[#4ThePlayers] Error: Failed to read memory container for whoisonline: " .. tostring(result))
+                    print("[#HomeLabOS v1.01] Error: Failed to read memory container for whoisonline: " .. tostring(result))
                     g_LobbyItems["Players Online"].whoIsOnline = {}
                     g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items 0"
                 end
                 memContainer = nil
             else
-                print("[#4ThePlayers] Error: Failed to create memory container for whoisonline")
+                print("[#HomeLabOS v1.01] Error: Failed to create memory container for whoisonline")
                 g_LobbyItems["Players Online"].whoIsOnline = {}
                 g_CategoryPageInfo["Players Online"]["whoisonline"] = "Page 1 of 1   Total Items 0"
             end
@@ -519,7 +519,7 @@ function UIRenderPageContent(bgX, bgY, bgWidth, bgHeight, topBarHeight)
 
 
         if g_LobbyRequestPending then
-            print("[#4ThePlayers] Lobby request still pending, displaying loading message")
+            print("[#HomeLabOS v1.01] Lobby request still pending, displaying loading message")
             renderer:SetFontScale(1.4, -1.4)
             local loadingText = g_Me:GetLocalizedText("kLoading")
             local textSize = renderer:GetTextSize(loadingText)
